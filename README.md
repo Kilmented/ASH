@@ -15,7 +15,7 @@
 | Bubberstation Discord     | [https://discord.gg/x4CVEHy6u7](https://discord.gg/x4CVEHy6u7) |
 | Coderbus Discord          | [https://discord.gg/Vh8TJp9](https://discord.gg/Vh8TJp9) |
 
-This is Bubberstation's downstream fork of Skyrat, which is in turn a fork of tgstation.
+This is ASH's downstream fork of Bubberstation, which is in turn a fork of Skyrat, which is in turn a fork of tgstation.
 
 **Please note that this repository contains sexually explicit content and is not suitable for those under the age of 18.**
 
