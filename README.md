@@ -56,7 +56,7 @@ You are responsible for the testing of your content. You should not mark a pull 
 
 [Maps and Away Missions](.github/guides/MAPS_AND_AWAY_MISSIONS.md)
 
-## :exclamation: How to compile :exclamation:
+## How to compile
 
 On **2021-01-04** /tg/station has changed the way to compile the codebase.
 
