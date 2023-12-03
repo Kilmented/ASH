@@ -10401,6 +10401,15 @@
 /obj/machinery/air_sensor/nitrogen_tank,
 /turf/open/floor/engine/n2,
 /area/station/engineering/atmos)
+"dyG" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/structure/fans/tiny/forcefield,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard)
 "dyK" = (
 /obj/structure/sign/warning/electric_shock,
 /turf/closed/wall/r_wall,
@@ -31095,6 +31104,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/service/chapel/funeral)
+"kcz" = (
+/obj/structure/fans/tiny/forcefield,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard)
 "kcE" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -33766,6 +33779,15 @@
 /obj/effect/mapping_helpers/airlock/access/any/engineering/maintenance,
 /turf/open/floor/iron/dark,
 /area/station/maintenance/starboard/aft)
+"kZp" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/broken_floor,
+/obj/structure/fans/tiny/forcefield,
+/turf/open/floor/plating,
+/area/station/maintenance/starboard)
 "kZq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -118073,7 +118095,7 @@ hnU
 fBm
 vFW
 oLH
-wCY
+kZp
 sJS
 aaa
 aaa
@@ -118330,8 +118352,8 @@ iaX
 eWS
 eWS
 sRz
-xZL
-sJS
+dyG
+kcz
 aaa
 aaa
 aaa
@@ -118587,8 +118609,8 @@ lkB
 xye
 nwP
 lDu
-wCY
-rZV
+kZp
+kcz
 aaa
 aaa
 aaa
@@ -118844,8 +118866,8 @@ seG
 cMD
 drm
 oLH
-wCY
-rZV
+kZp
+kcz
 aaa
 aaa
 aaa
@@ -119101,7 +119123,7 @@ sJS
 lDu
 yad
 lDu
-wCY
+kZp
 rZV
 aaa
 aaa
