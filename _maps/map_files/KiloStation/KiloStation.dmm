@@ -47255,7 +47255,13 @@
 /turf/open/floor/plating,
 /area/station/maintenance/disposal/incinerator)
 "pBi" = (
-/obj/docking_port/stationary/mining_home/kilo{
+/obj/docking_port/stationary{
+	dwidth = 5;
+	height = 7;
+	name = "Salvaging";
+	roundstart_template = /datum/map_template/shuttle/ruin/blackmarket_chevvy;
+	shuttle_id = "blackmarket_chevvy_home";
+	width = 11;
 	dir = 4
 	},
 /turf/open/space/basic,
