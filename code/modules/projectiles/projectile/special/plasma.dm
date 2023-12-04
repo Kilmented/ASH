@@ -38,3 +38,12 @@
 	damage = 24
 	range = 7
 	pass_flags = PASSTABLE | PASSGLASS | PASSGRILLE
+
+/obj/projectile/plasma/shipbreaker
+	name = "supercritical hydrogen burst"
+	icon_state = "plasmacutter"
+	damage_type = BURN
+	damage = 15 // half toy
+	range = 7 // half tool
+	dismemberment = 5 // Was 20, do I even need to describe why this is a bad idea?
+	catastropic_dismemberment = TRUE // if you manage to crit a humanlike, they'll FEEL it.

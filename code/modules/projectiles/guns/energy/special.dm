@@ -193,6 +193,14 @@
 	force = 15
 	ammo_type = list(/obj/item/ammo_casing/energy/plasma/adv)
 
+/obj/item/gun/energy/plasmacutter/shipbreaker
+	name = "HTUS-Buzzsaw"
+	desc = "A salvaging tool designed by R&D to the specifications of the Horizon Trade Union. It functions via expelling concentrated hydrogen bursts that are flash-heated to supercritical levels."
+	icon_state = "adv_plasmacutter"
+	inhand_icon_state = "adv_plasmacutter"
+	force = 15
+	ammo_type = list(/obj/item/ammo_casing/energy/plasma/shipbreaker)
+
 #define AMMO_SELECT_BLUE 1
 #define AMMO_SELECT_ORANGE 2
 

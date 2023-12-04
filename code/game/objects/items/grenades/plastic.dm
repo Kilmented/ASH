@@ -181,3 +181,13 @@
 	worn_icon_state = "x4"
 	directional = TRUE
 	boom_sizes = list(0, 2, 5)
+
+/obj/item/grenade/c4/x4/shipbreaker
+	name = "S-4 charge"
+	desc = "A shaped high-explosive breaching charge designed to ensure user safety and wall nonsafety. There's two wires, and you can rig them to signaller to only blow on your command. Otherwise, there's a 20 second safety fuse."
+	icon_state = "plastic-explosive0"
+	inhand_icon_state = "plastic-explosive"
+	worn_icon_state = "c4"
+//	boom_sizes = list(0, 2, 5) // If it gets too much, nerf down to regular C4 levels.
+	minimum_timer = 20
+	maximum_timer = 25 // hehe, don't get complacent
