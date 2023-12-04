@@ -107,7 +107,7 @@ SUBSYSTEM_DEF(mapping)
 		var/old_config = config
 		config = global.config.defaultmap
 		if(!config || config.defaulted)
-			to_chat(world, span_boldannounce("Unable to load next or default map config, defaulting to MetaStation."))
+			to_chat(world, span_boldannounce("Unable to load next or default map config, defaulting to KiloStation."))
 			config = old_config
 	plane_offset_to_true = list()
 	true_to_offset_planes = list()
