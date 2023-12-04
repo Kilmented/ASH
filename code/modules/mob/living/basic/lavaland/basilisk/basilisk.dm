@@ -8,8 +8,8 @@
 	speak_emote = list("chimes")
 	damage_coeff = list(BRUTE = 1, BURN = 0.1, TOX = 1, CLONE = 1, STAMINA = 0, OXY = 1)
 	speed = 20
-	maxHealth = 200
-	health = 200
+	maxHealth = 120
+	health = 120
 	obj_damage = 60
 	melee_damage_lower = 12
 	melee_damage_upper = 12

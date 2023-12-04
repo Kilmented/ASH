@@ -2,7 +2,7 @@
 	name = "plasma blast"
 	icon_state = "plasmacutter"
 	damage_type = BURN
-	damage = 5
+	damage = 20 // awful, just for getting the job done.
 	range = 4
 	dismemberment = 20
 	impact_effect_type = /obj/effect/temp_visual/impact_effect/purple_laser
@@ -23,14 +23,16 @@
 			return BULLET_ACT_FORCE_PIERCE
 
 /obj/projectile/plasma/adv
-	damage = 7
+	damage = 25 // not as good as the Buzzsaw, but close.
 	range = 5
 	mine_range = 5
 
 /obj/projectile/plasma/adv/mech
-	damage = 10
-	range = 9
-	mine_range = 3
+	damage = 80
+	range = 12
+	mine_range = 0
+	dismemberment = 40
+	catastropic_dismemberment = TRUE
 
 /obj/projectile/plasma/turret
 	//Between normal and advanced for damage, made a beam so not the turret does not destroy glass
@@ -43,7 +45,7 @@
 	name = "supercritical hydrogen burst"
 	icon_state = "plasmacutter"
 	damage_type = BURN
-	damage = 15 // half toy
+	damage = 30 // half toy
 	range = 7 // half tool
 	dismemberment = 5 // Was 20, do I even need to describe why this is a bad idea?
 	catastropic_dismemberment = TRUE // if you manage to crit a humanlike, they'll FEEL it.

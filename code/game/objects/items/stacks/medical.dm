@@ -262,9 +262,9 @@
 	gender = PLURAL
 	singular_name = "suture"
 	icon_state = "suture"
-	self_delay = 3 SECONDS
-	other_delay = 1 SECONDS
-	amount = 10
+	self_delay = 5 SECONDS
+	other_delay = 3 SECONDS
+	amount = 5 // same as emergecy, but you can hold a LOT more and they're faster.
 	max_amount = 10
 	repeating = TRUE
 	heal_brute = 10
@@ -275,6 +275,8 @@
 /obj/item/stack/medical/suture/emergency
 	name = "emergency suture"
 	desc = "A value pack of cheap sutures, not very good at repairing damage, but still decent at stopping bleeding."
+	self_delay = 10 SECONDS
+	other_delay = 5 SECONDS
 	heal_brute = 5
 	amount = 5
 	max_amount = 5
@@ -284,6 +286,8 @@
 	name = "medicated suture"
 	icon_state = "suture_purp"
 	desc = "A suture infused with drugs that speed up wound healing of the treated laceration."
+	self_delay = 3 SECONDS
+	other_delay = 1 SECONDS
 	heal_brute = 15
 	stop_bleeding = 0.75
 	grind_results = list(/datum/reagent/medicine/polypyr = 1)

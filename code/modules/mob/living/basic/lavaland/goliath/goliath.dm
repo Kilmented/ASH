@@ -11,8 +11,8 @@
 	gender = MALE // Female ones are the bipedal elites
 	speed = 30
 	basic_mob_flags = IMMUNE_TO_FISTS
-	maxHealth = 300
-	health = 300
+	maxHealth = 200
+	health = 200
 	friendly_verb_continuous = "wails at"
 	friendly_verb_simple = "wail at"
 	speak_emote = list("bellows")
