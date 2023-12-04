@@ -32,7 +32,7 @@
 	wound = 10 // A test of skill.
 
 /obj/item/clothing/head/hooded/seva
-	name = "S-EVA hood"
+	name = "S-EVA helmet"
 	desc = "A home-made retractable EVA helmet designed by the R&D team with specifications from the Horizon Trade Union's salvagers. Thick to protect you from extreme pressures, the void, and temperature fluctuations."
 	icon = 'modular_skyrat/master_files/icons/obj/clothing/hats.dmi'
 	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/head.dmi'
@@ -46,6 +46,7 @@
 	min_cold_protection_temperature = SPACE_HELM_MIN_TEMP_PROTECT
 	max_heat_protection_temperature = SPACE_SUIT_MAX_TEMP_PROTECT
 	clothing_flags = STOPSPRESSUREDAMAGE | THICKMATERIAL
+	flash_protect = FLASH_PROTECTION_WELDER
 	armor_type = /datum/armor/seva
 	resistance_flags = FIRE_PROOF
 	supports_variations_flags = CLOTHING_SNOUTED_VARIATION //I can't find the snout sprite so I'm just gonna force it to do this

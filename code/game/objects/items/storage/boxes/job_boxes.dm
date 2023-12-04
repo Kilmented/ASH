@@ -48,7 +48,7 @@
 
 	if(HAS_TRAIT(SSstation, STATION_TRAIT_RADIOACTIVE_NEBULA))
 		new /obj/item/storage/pill_bottle/potassiodide(src)
-	
+
 	if(SSmapping.is_planetary() && LAZYLEN(SSmapping.multiz_levels))
 		new /obj/item/climbing_hook/emergency(src)
 
@@ -74,7 +74,7 @@
 
 // Mining survival box
 /obj/item/storage/box/survival/mining
-	mask_type = /obj/item/clothing/mask/gas/explorer/folded
+	mask_type = /obj/item/clothing/mask/gas/alt
 
 /obj/item/storage/box/survival/mining/PopulateContents()
 	..()

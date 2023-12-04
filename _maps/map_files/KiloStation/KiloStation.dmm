@@ -3138,6 +3138,11 @@
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/plating,
 /area/station/maintenance/port/greater)
+"baS" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/station/cargo/miningoffice)
 "bbl" = (
 /obj/machinery/door/airlock/external{
 	name = "Abandoned External Airlock"
@@ -4283,6 +4288,14 @@
 	},
 /turf/open/floor/iron,
 /area/station/command/bridge)
+"byy" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/tile/neutral/half/contrasted,
+/turf/open/floor/iron,
+/area/station/command/gateway)
 "byD" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
@@ -5186,14 +5199,11 @@
 /turf/open/floor/plating,
 /area/station/maintenance/starboard/aft)
 "bRx" = (
-/obj/machinery/computer/shuttle/mining{
-	dir = 8;
-	req_access = null
-	},
-/obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/tile/neutral/anticorner/contrasted{
 	dir = 8
 	},
+/obj/effect/turf_decal/bot,
+/obj/structure/closet/crate,
 /turf/open/floor/iron/dark,
 /area/station/cargo/miningoffice)
 "bRy" = (
@@ -14751,12 +14761,18 @@
 /turf/open/floor/plating,
 /area/station/maintenance/port/greater)
 "fae" = (
+/obj/effect/turf_decal/delivery,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/stripes/line{
+/obj/machinery/light/small/directional/south,
+/obj/machinery/portable_atmospherics/canister/air,
+/obj/item/wrench,
+/obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
-/obj/structure/cable,
-/turf/open/floor/iron,
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
 /area/station/cargo/miningoffice)
 "fak" = (
 /obj/effect/turf_decal/stripes/line,
@@ -28001,11 +28017,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/showroomfloor,
 /area/station/security/office)
-"jaR" = (
-/obj/effect/turf_decal/bot,
-/obj/effect/spawner/random/structure/crate,
-/turf/open/floor/iron,
-/area/station/cargo/storage)
 "jaU" = (
 /obj/machinery/light/small/directional/south,
 /obj/effect/turf_decal/sand/plating,
@@ -32117,12 +32128,12 @@
 /turf/open/floor/iron/dark,
 /area/station/medical/morgue)
 "kyj" = (
-/obj/structure/closet/secure_closet/miner,
 /obj/effect/turf_decal/delivery,
 /obj/item/tank/internals/oxygen/yellow,
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 1
 	},
+/obj/structure/closet/secure_closet/miner/shipbreaker,
 /turf/open/floor/iron/dark,
 /area/station/cargo/miningoffice)
 "kyR" = (
@@ -33224,13 +33235,9 @@
 /turf/open/floor/iron/dark,
 /area/station/service/chapel/funeral)
 "kRd" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/tile/neutral/half/contrasted,
-/turf/open/floor/iron,
-/area/station/command/gateway)
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/space/nearstation)
 "kRu" = (
 /obj/effect/turf_decal/siding/blue,
 /obj/structure/disposalpipe/segment{
@@ -43107,13 +43114,13 @@
 /turf/open/floor/iron/dark,
 /area/station/hallway/secondary/service)
 "ohR" = (
-/obj/structure/closet/secure_closet/miner,
 /obj/effect/turf_decal/delivery,
 /obj/item/tank/internals/oxygen/yellow,
 /obj/machinery/light/directional/south,
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 1
 	},
+/obj/structure/closet/secure_closet/miner/shipbreaker,
 /turf/open/floor/iron/dark,
 /area/station/cargo/miningoffice)
 "oic" = (
@@ -47222,9 +47229,17 @@
 /turf/open/floor/plating,
 /area/station/maintenance/disposal/incinerator)
 "pBi" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/space/nearstation)
+/obj/docking_port/stationary{
+	dwidth = 5;
+	height = 7;
+	name = "Salvaging Bay";
+	roundstart_template = /datum/map_template/shuttle/ruin/blackmarket_chevvy;
+	shuttle_id = "blackmarket_chevvy_home";
+	width = 11;
+	dir = 4
+	},
+/turf/open/space/basic,
+/area/space)
 "pBR" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -48016,9 +48031,6 @@
 /turf/open/floor/iron/dark,
 /area/station/hallway/primary/aft)
 "pNY" = (
-/obj/machinery/computer/security/mining{
-	dir = 8
-	},
 /obj/effect/turf_decal/bot,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/status_display/evac/directional/east,
@@ -48026,6 +48038,7 @@
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 8
 	},
+/obj/structure/closet/crate,
 /turf/open/floor/iron/dark,
 /area/station/cargo/miningoffice)
 "pNZ" = (
@@ -51039,13 +51052,13 @@
 /turf/open/floor/iron,
 /area/station/hallway/primary/starboard)
 "qRm" = (
-/obj/structure/closet/secure_closet/miner,
 /obj/effect/turf_decal/delivery,
 /obj/item/tank/internals/oxygen/yellow,
 /obj/item/radio/intercom/directional/south,
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 1
 	},
+/obj/structure/closet/secure_closet/miner/shipbreaker,
 /turf/open/floor/iron/dark,
 /area/station/cargo/miningoffice)
 "qRp" = (
@@ -60434,10 +60447,10 @@
 /turf/open/floor/iron/showroomfloor,
 /area/station/science/research)
 "tNj" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/bot,
+/obj/effect/spawner/random/structure/crate,
 /turf/open/floor/iron,
-/area/station/cargo/miningoffice)
+/area/station/cargo/storage)
 "tNk" = (
 /obj/structure/chair{
 	dir = 1
@@ -72306,21 +72319,12 @@
 /turf/open/floor/carpet/royalblue,
 /area/station/service/chapel/office)
 "xzI" = (
-/obj/effect/turf_decal/delivery,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/small/directional/south,
-/obj/machinery/atmospherics/components/unary/portables_connector/visible{
-	dir = 1
-	},
-/obj/machinery/portable_atmospherics/canister/air,
-/obj/item/wrench,
-/obj/effect/turf_decal/stripes/corner{
+/obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
-/obj/effect/turf_decal/tile/neutral/half/contrasted{
-	dir = 1
-	},
-/turf/open/floor/iron/dark,
+/obj/structure/cable,
+/turf/open/floor/iron,
 /area/station/cargo/miningoffice)
 "xzS" = (
 /obj/machinery/chem_master,
@@ -73920,18 +73924,6 @@
 /obj/effect/turf_decal/tile/neutral,
 /turf/open/floor/iron/showroomfloor,
 /area/station/security/office)
-"yaF" = (
-/obj/docking_port/stationary{
-	dwidth = 5;
-	height = 7;
-	name = "Salvaging Bay";
-	roundstart_template = /datum/map_template/shuttle/ruin/blackmarket_chevvy;
-	shuttle_id = "blackmarket_chevvy_home";
-	width = 11;
-	dir = 4
-	},
-/turf/open/space/basic,
-/area/space)
 "yaG" = (
 /obj/structure/sign/warning/electric_shock,
 /turf/closed/wall/r_wall,
@@ -106431,7 +106423,7 @@ lRk
 hvj
 jOA
 tXZ
-kRd
+byy
 uBO
 kwe
 kxS
@@ -106688,7 +106680,7 @@ lRk
 gyx
 vXa
 exN
-kRd
+byy
 jKt
 sBz
 hEa
@@ -113910,7 +113902,7 @@ iht
 drw
 gQx
 eQD
-jaR
+tNj
 owA
 gQx
 mlH
@@ -114167,7 +114159,7 @@ lea
 qLi
 vgd
 eQD
-jaR
+tNj
 qdd
 lxU
 xpS
@@ -116989,9 +116981,9 @@ acm
 oUz
 twd
 hBa
-tNj
+baS
 gPO
-pBi
+kRd
 aaa
 aaa
 aaa
@@ -117246,9 +117238,9 @@ aaQ
 oUz
 wCe
 iVn
-fae
 xzI
-pBi
+fae
+kRd
 aaa
 aaa
 aaa
@@ -117760,7 +117752,7 @@ aaa
 aaa
 aaa
 aaa
-yaF
+pBi
 aaa
 aaa
 aaa

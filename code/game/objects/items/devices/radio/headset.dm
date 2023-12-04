@@ -295,8 +295,8 @@ GLOBAL_LIST_INIT(channel_tokens, list(
 	keyslot = /obj/item/encryptionkey/headset_cargo
 
 /obj/item/radio/headset/headset_cargo/mining
-	name = "mining radio headset"
-	desc = "Headset used by shaft miners."
+	name = "salvager radio headset"
+	desc = "Headset used by salvagers."
 	icon_state = "mine_headset"
 	worn_icon_state = "mine_headset"
 	// "puts the antenna down" while the headset is off
