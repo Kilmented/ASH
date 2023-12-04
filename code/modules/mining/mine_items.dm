@@ -83,6 +83,22 @@
 
 	new /obj/item/gun/energy/recharge/kinetic_accelerator(src)
 
+/obj/structure/closet/secure_closet/miner/shipbreaker
+	name = "salvager's equipment"
+	icon_state = "mining"
+	req_access = list(ACCESS_MINING)
+
+/obj/structure/closet/secure_closet/miner/unlocked
+	locked = FALSE
+
+/obj/structure/closet/secure_closet/miner/PopulateContents()
+	..()
+	new /obj/item/radio/headset/headset_cargo/mining(src)
+	new /obj/item/t_scanner/adv_mining_scanner/lesser(src)
+	new /obj/item/t_scanner(src) // both scanners for peak salvage opportunity
+	new /obj/item/clothing/glasses/meson(src)
+
+
 /**********************Shuttle Computer**************************/
 
 /obj/machinery/computer/shuttle/mining

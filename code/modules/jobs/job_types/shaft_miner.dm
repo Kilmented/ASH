@@ -1,7 +1,6 @@
 /datum/job/shaft_miner
 	title = JOB_SHAFT_MINER
-	description = "Travel to strange lands. Mine ores. \
-		Meet strange creatures. Kill them for their gold."
+	description = "Break ships."
 	department_head = list(JOB_QUARTERMASTER)
 	faction = FACTION_STATION
 	total_positions = 3
@@ -13,7 +12,7 @@
 	outfit = /datum/outfit/job/miner
 	plasmaman_outfit = /datum/outfit/plasmaman/mining
 
-	paycheck = PAYCHECK_CREW
+	paycheck = PAYCHECK_LOWER
 	paycheck_department = ACCOUNT_CAR
 
 	mind_traits = list(TRAIT_DETECT_STORM)
@@ -36,18 +35,15 @@
 	id_trim = /datum/id_trim/job/shaft_miner
 	uniform = /obj/item/clothing/under/rank/cargo/miner/lavaland
 	backpack_contents = list(
-		/obj/item/flashlight/seclite = 1,
-		/obj/item/knife/combat/survival = 1,
 		/obj/item/mining_voucher = 1,
-		/obj/item/suit_voucher = 1,
-		/obj/item/stack/marker_beacon/ten = 1,
-		) //SKYRAT EDIT: Suit_Voucher is an addition, one line up
+		/obj/item/suit_voucher = 1
+		)
 	belt = /obj/item/modular_computer/pda/shaftminer
 	ears = /obj/item/radio/headset/headset_cargo/mining
 	gloves = /obj/item/clothing/gloves/color/black
 	shoes = /obj/item/clothing/shoes/workboots/mining
-	l_pocket = /obj/item/reagent_containers/hypospray/medipen/survival
-	r_pocket = /obj/item/storage/bag/ore //causes issues if spawned in backpack
+	l_pocket = /obj/item/flashlight/seclite // instead of an OP ass medipen
+	r_pocket = /obj/item/knife/combat/survival // instead of a mining bag
 
 	backpack = /obj/item/storage/backpack/explorer
 	satchel = /obj/item/storage/backpack/satchel/explorer

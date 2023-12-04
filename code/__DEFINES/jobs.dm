@@ -39,7 +39,7 @@
  */
 
 //No department
-#define JOB_ASSISTANT "Assistant"
+#define JOB_ASSISTANT "Vagabond"
 #define JOB_PRISONER "Prisoner"
 //Command
 #define JOB_CAPTAIN "Captain"
@@ -81,7 +81,7 @@
 //Supply
 #define JOB_QUARTERMASTER "Quartermaster"
 #define JOB_CARGO_TECHNICIAN "Cargo Technician"
-#define JOB_SHAFT_MINER "Shaft Miner"
+#define JOB_SHAFT_MINER "Salvager"
 #define JOB_BITRUNNER "Bitrunner"
 #define JOB_CUSTOMS_AGENT "Customs Agent" // SKYRAT EDIT ADDITION
 //Service
