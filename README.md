@@ -15,12 +15,16 @@
 | Bubberstation Discord     | [https://discord.gg/x4CVEHy6u7](https://discord.gg/x4CVEHy6u7) |
 | Coderbus Discord          | [https://discord.gg/Vh8TJp9](https://discord.gg/Vh8TJp9) |
 
-This is ASH's downstream fork of Bubberstation, which is in turn a fork of Skyrat, which is in turn a fork of tgstation.
+SolGov, in a bid to balloon their political force projection, created the 2488 Sector-stead Act, dividing numerous frontier sectors to the willing and able bodied for very cheap. 
+This created what is essentially the largest migration in the history of the galaxy. 
+Tens of thousands of colony ships were constructed, filled with souls and equipment, sent into the void with a wave and a tear to the eye.
+After a lengthy 75 years or so of sub-light travel (Bluespace drives hadn't been invented yet), you stir out of your vitrification- your cryopod.
+All the automated procedures were successful, an asteroid was chosen as a base for the station and the ship was disassembled for raw materials.
+Law and order is still being established. 
+The only safety comes from crossed turret arcs, and maybe a six shooter or two at your side.
+Welcome to frontier life; Welcome to A-Still-Horizon Station. 
 
 **Please note that this repository contains sexually explicit content and is not suitable for those under the age of 18.**
-
-Space Station 13 is a paranoia-laden round-based roleplaying game set against the backdrop of a nonsensical, metal death trap masquerading as a space station, with charming spritework designed to represent the sci-fi setting and its dangerous undertones. Have fun, and survive!
-
 ## Contribution Rules and Guidelines
 
 **1. Do Not Be A Dick**
