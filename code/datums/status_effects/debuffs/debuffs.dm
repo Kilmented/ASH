@@ -1,5 +1,5 @@
 /// The damage healed per tick while sleeping without any modifiers
-#define HEALING_SLEEP_DEFAULT 0.2
+#define HEALING_SLEEP_DEFAULT 1
 /// The sleep healing multipler for organ passive healing (since organs heal slowly)
 #define HEALING_SLEEP_ORGAN_MULTIPLIER 5
 /// The sleep multipler for fitness xp conversion
