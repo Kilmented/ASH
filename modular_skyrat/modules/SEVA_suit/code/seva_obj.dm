@@ -1,6 +1,6 @@
 /obj/item/clothing/suit/hooded/seva
-	name = "SEVA suit"
-	desc = "A fire-proof suit for exploring hot environments. Its design doesn't allow for upgrading with goliath plates."
+	name = "S-EVA suit"
+	desc = "A home-made upcycled EVA suit designed by the R&D team with specifications from the Horizon Trade Union's salvagers. Thick to protect you from extreme pressures, the void, and temperature fluctuations."
 	icon = 'modular_skyrat/master_files/icons/obj/clothing/suits.dmi'
 	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/suit.dmi'
 	worn_icon_muzzled = 'modular_skyrat/master_files/icons/mob/clothing/suit_digi.dmi'
@@ -9,30 +9,31 @@
 	body_parts_covered = CHEST|GROIN|LEGS|ARMS
 	flags_inv = HIDEJUMPSUIT|HIDETAIL
 	cold_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
-	min_cold_protection_temperature = FIRE_SUIT_MIN_TEMP_PROTECT
+	min_cold_protection_temperature = SPACE_SUIT_MIN_TEMP_PROTECT
 	w_class = WEIGHT_CLASS_BULKY
-	max_heat_protection_temperature = ARMOR_MAX_TEMP_PROTECT
+	max_heat_protection_temperature = SPACE_SUIT_MAX_TEMP_PROTECT
 	heat_protection = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
 	hoodtype = /obj/item/clothing/head/hooded/seva
-	armor_type = /datum/armor/hooded_seva
+	armor_type = /datum/armor/seva
 	resistance_flags = FIRE_PROOF
 	transparent_protection = HIDEJUMPSUIT
 	allowed = list(/obj/item/flashlight, /obj/item/tank/internals, /obj/item/resonator, /obj/item/mining_scanner, /obj/item/t_scanner/adv_mining_scanner, /obj/item/gun/energy/recharge/kinetic_accelerator, /obj/item/pickaxe)
+	clothing_flags = STOPSPRESSUREDAMAGE | THICKMATERIAL
 
-/datum/armor/hooded_seva
-	melee = 20
+/datum/armor/seva // tweeked to perfection
+	melee = 30
 	bullet = 10
-	laser = 10
-	energy = 10
-	bomb = 30
-	bio = 50
-	fire = 100
-	acid = 50
-	wound = 10
+	laser = 25
+	energy = 25
+	bomb = 40 // The padding helps, in case you somehow fuck up using your scrapping charge (soonTM)
+	bio = 100 // It's fully sealed. Theoretically.
+	fire = 60 // Reduces damage significantly, but prolonged fire will MELT your ablative armor.
+	acid = 90 // It's a full covering!
+	wound = 10 // A test of skill.
 
 /obj/item/clothing/head/hooded/seva
-	name = "SEVA hood"
-	desc = "A fire-proof hood for exploring hot environments. Its design doesn't allow for upgrading with goliath plates."
+	name = "S-EVA hood"
+	desc = "A home-made retractable EVA helmet designed by the R&D team with specifications from the Horizon Trade Union's salvagers. Thick to protect you from extreme pressures, the void, and temperature fluctuations."
 	icon = 'modular_skyrat/master_files/icons/obj/clothing/hats.dmi'
 	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/head.dmi'
 	worn_icon_muzzled = 'modular_skyrat/master_files/icons/mob/clothing/head_muzzled.dmi'
@@ -42,9 +43,10 @@
 	flags_inv = HIDEHAIR|HIDEFACE|HIDEEARS|HIDESNOUT
 	cold_protection = HEAD
 	heat_protection = HEAD
-	max_heat_protection_temperature = ARMOR_MAX_TEMP_PROTECT
-	clothing_traits = list(TRAIT_ASHSTORM_IMMUNE)
-	armor_type = /datum/armor/hooded_seva
+	min_cold_protection_temperature = SPACE_HELM_MIN_TEMP_PROTECT
+	max_heat_protection_temperature = SPACE_SUIT_MAX_TEMP_PROTECT
+	clothing_flags = STOPSPRESSUREDAMAGE | THICKMATERIAL
+	armor_type = /datum/armor/seva
 	resistance_flags = FIRE_PROOF
 	supports_variations_flags = CLOTHING_SNOUTED_VARIATION //I can't find the snout sprite so I'm just gonna force it to do this
 
