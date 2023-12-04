@@ -39,7 +39,7 @@
  */
 
 //No department
-#define JOB_ASSISTANT "Assistant"
+#define JOB_ASSISTANT "Vagabond"
 #define JOB_PRISONER "Prisoner"
 //Command
 #define JOB_CAPTAIN "Captain"

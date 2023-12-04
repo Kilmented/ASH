@@ -84,7 +84,7 @@ STATION_GOAL_BUDGET 2
 ## GAME MODES ###
 
 ## Uncomment to not send a roundstart intercept report. Gamemodes may override this.
-#NO_INTERCEPT_REPORT
+NO_INTERCEPT_REPORT
 
 ## Percent weight reductions for three of the most recent modes
 
@@ -118,13 +118,13 @@ PROTECT_ROLES_FROM_ANTAGONIST
 #PROTECT_ASSISTANT_FROM_ANTAGONIST
 
 ## If non-human species are barred from joining as a head of staff
-#ENFORCE_HUMAN_AUTHORITY
+ENFORCE_HUMAN_AUTHORITY
 
 ## If non-human species are barred from joining as a head of staff, including jobs flagged as allowed for non-humans, ie. Quartermaster.
 #ENFORCE_HUMAN_AUTHORITY_ON_EVERYONE
 
 ## If late-joining players have a chance to become a traitor/changeling
-ALLOW_LATEJOIN_ANTAGONISTS
+#ALLOW_LATEJOIN_ANTAGONISTS
 
 ## Uncomment to prevent the nuclear operative leader from getting the war declaration item
 #DISABLE_WAROPS
@@ -158,7 +158,7 @@ ALLOW_AI_MULTICAM
 
 ## Secborg ###
 ## Uncomment to prevent the security cyborg model from being chosen
-#DISABLE_SECBORG
+DISABLE_SECBORG
 
 ## Peacekeeper Borg ###
 ## Uncomment to prevent the peacekeeper cyborg model from being chosen
@@ -190,13 +190,13 @@ MINIMAL_ACCESS_THRESHOLD 10
 #JOBS_HAVE_MINIMAL_ACCESS
 
 ## Uncomment to give assistants maint access.
-#ASSISTANTS_HAVE_MAINT_ACCESS
+ASSISTANTS_HAVE_MAINT_ACCESS
 
 ## Uncoment to give security maint access. Note that if you dectivate JOBS_HAVE_MINIMAL_ACCESS security already gets maint from that.
-#SECURITY_HAS_MAINT_ACCESS
+SECURITY_HAS_MAINT_ACCESS
 
 ## Uncomment to give everyone maint access.
-EVERYONE_HAS_MAINT_ACCESS
+#EVERYONE_HAS_MAINT_ACCESS
 
 ## Comment this out this to make security officers spawn in departmental security posts
 #SEC_START_BRIG
@@ -351,20 +351,19 @@ ROUNDSTART_RACES human
 ## Races that are strictly worse than humans that could probably be turned on without balance concerns
 ROUNDSTART_RACES felinid
 ROUNDSTART_RACES lizard
-ROUNDSTART_RACES felinid
 #ROUNDSTART_RACES fly
-ROUNDSTART_RACES moth
-ROUNDSTART_RACES plasmaman
+#ROUNDSTART_RACES moth
+#ROUNDSTART_RACES plasmaman
 #ROUNDSTART_RACES shadow
-ROUNDSTART_RACES teshari
+#ROUNDSTART_RACES teshari
 ROUNDSTART_RACES hemophage
-ROUNDSTART_RACES snail
+#ROUNDSTART_RACES snail
 
 ## Races that are better than humans in some ways, but worse in others
 ROUNDSTART_RACES ethereal
 #ROUNDSTART_RACES jelly
 #ROUNDSTART_RACES abductor
-#ROUNDSTART_RACES synth
+ROUNDSTART_RACES synth
 
 ## Including all the various golem subtypes that are better than humans in some ways, but worse in others
 #ROUNDSTART_RACES iron_golem
@@ -399,28 +398,28 @@ ROUNDSTART_RACES ethereal
 #ROUNDSTART_RACES zombie
 #ROUNDSTART_RACES slime
 #ROUNDSTART_RACES pod
-#ROUNDSTART_RACES military_synth
+ROUNDSTART_RACES military_synth
 #ROUNDSTART_RACES agent
 
 ## SKYRAT RACES DOWN THERE
 ROUNDSTART_RACES mammal
-ROUNDSTART_RACES vulpkanin
-ROUNDSTART_RACES tajaran
-ROUNDSTART_RACES akula
-ROUNDSTART_RACES unathi
-ROUNDSTART_RACES skrell
+#ROUNDSTART_RACES vulpkanin
+#ROUNDSTART_RACES tajaran
+#ROUNDSTART_RACES akula
+#ROUNDSTART_RACES unathi
+#ROUNDSTART_RACES skrell
 ROUNDSTART_RACES humanoid
-ROUNDSTART_RACES xeno
+#ROUNDSTART_RACES xeno
 ROUNDSTART_RACES slimeperson
-ROUNDSTART_RACES podweak
-ROUNDSTART_RACES dwarf
-ROUNDSTART_RACES vox
-ROUNDSTART_RACES vox_primalis
+#ROUNDSTART_RACES podweak
+#ROUNDSTART_RACES dwarf
+#ROUNDSTART_RACES vox
+#ROUNDSTART_RACES vox_primalis
 ROUNDSTART_RACES aquatic
 ROUNDSTART_RACES insect
 ROUNDSTART_RACES synth
-ROUNDSTART_RACES ghoul
-ROUNDSTART_RACES shadekin
+#ROUNDSTART_RACES ghoul
+#ROUNDSTART_RACES shadekin
 
 ##-------------------------------------------------------------------------------------------
 
@@ -455,7 +454,7 @@ OVERFLOW_JOB Assistant
 OVERFLOW_CAP -1
 
 ## Uncomment to bring back old grey suit assistants instead of the now default rainbow colored assistants.
-#GREY_ASSISTANTS
+GREY_ASSISTANTS
 
 ##Limit Spell Choices##
 ## Uncomment to disallow wizards from using certain spells that may be too chaotic/fun for your playerbase
@@ -496,7 +495,7 @@ ICEMOON_BUDGET 90
 OCEAN_BUDGET 60
 
 ## Space Ruin Budget
-Space_Budget 16
+Space_Budget 60
 
 ## Time in ds from when a player latejoins till the arrival shuttle docks at the station
 ## Must be at least 30. At least 55 recommended to be visually/aurally appropriate
@@ -545,13 +544,13 @@ MAXFINE 2000
 
 ## Which role is required of playtime to be eligible for Maintenance Drones
 ## See code/__DEFINES/preferences.dm for available options, use the string portion without quotes
-#DRONE_REQUIRED_ROLE Silicon
+DRONE_REQUIRED_ROLE Silicon
 
 ## How many played hours of DRONE_REQUIRED_ROLE required to be a Maintenance Done
-#DRONE_ROLE_PLAYTIME 14
+DRONE_ROLE_PLAYTIME 999
 
 ## Whether native FoV is enabled for all people.
-#NATIVE_FOV
+NATIVE_FOV
 
 ## How much does the protolathe cost to use on station? Disabled is off.
 

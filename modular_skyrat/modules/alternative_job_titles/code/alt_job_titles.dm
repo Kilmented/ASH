@@ -18,11 +18,11 @@
 
 /datum/job/assistant
 	alt_titles = list(
+		"Vagabond",
 		"Assistant",
 		"Artist",
 		"Businessman",
 		"Businesswoman",
-		"Civilian",
 		"Entertainer",
 		"Freelancer",
 		"Tourist",
@@ -376,12 +376,9 @@
 
 /datum/job/shaft_miner
 	alt_titles = list(
-		"Union Miner",
-		"Excavator",
-		"Drill Technician",
-		"Prospector",
-		"Spelunker",
-		"Apprentice Miner",
+		"Union Salvager",
+		"Apprentice Salvager",
+		"Freelance Salvager",
 	)
 
 /datum/job/station_engineer
