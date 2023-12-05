@@ -54,13 +54,6 @@
 "fp" = (
 /turf/closed/wall/mineral/titanium,
 /area/shuttle/blackmarket_chevvy)
-"fq" = (
-/obj/structure/fluff/metalpole/end{
-	dir = 8;
-	pixel_x = -21
-	},
-/turf/template_noop,
-/area/template_noop)
 "jD" = (
 /obj/effect/turf_decal/delivery/white,
 /obj/machinery/door/airlock/external,
@@ -72,7 +65,6 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/shuttle/blackmarket_chevvy)
 "ka" = (
-/obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/machinery/atmospherics/components/unary/portables_connector/visible/layer4{
 	dir = 4
 	},
@@ -118,13 +110,6 @@
 	},
 /obj/machinery/light/dim/directional/south,
 /turf/open/floor/catwalk_floor,
-/area/shuttle/blackmarket_chevvy)
-"vR" = (
-/obj/structure/fluff/metalpole/end{
-	dir = 8;
-	pixel_x = -32
-	},
-/turf/closed/wall/mineral/titanium,
 /area/shuttle/blackmarket_chevvy)
 "wE" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -256,6 +241,14 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate/cardboard,
+/obj/item/folded_navigation_gigabeacon{
+	pixel_y = -6
+	},
+/obj/item/folded_navigation_gigabeacon,
+/obj/item/folded_navigation_gigabeacon{
+	pixel_y = 6
+	},
 /turf/open/floor/iron/shuttle/cargo,
 /area/shuttle/blackmarket_chevvy)
 "Ov" = (
@@ -400,21 +393,21 @@
 
 (1,1,1) = {"
 Ov
-fq
+Ov
 YX
 YP
 YX
-fq
+Ov
 Ov
 "}
 (2,1,1) = {"
-vR
+fp
 zi
 YX
 vK
 YX
 zi
-vR
+fp
 "}
 (3,1,1) = {"
 ss
