@@ -38,3 +38,12 @@
 /turf/open/water/beach/Initialize(mapload)
 	. = ..()
 	AddElement(/datum/element/lazy_fishing_spot, /datum/fish_source/ocean/beach)
+
+/turf/open/water/ocean
+	gender = PLURAL
+	desc = "Seems deep."
+	icon = 'icons/turf/ocean.dmi'
+	icon_state = "water-ocean"
+	base_icon_state = "water-ocean"
+	baseturfs = /turf/open/water/beach
+	immerse_overlay_color = "#4C607D"
