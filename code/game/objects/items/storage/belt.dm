@@ -76,6 +76,7 @@
 		/obj/item/wrench,
 		/obj/item/spess_knife,
 		/obj/item/melee/sickly_blade/lock,
+		/obj/item/gun/energy/plasmacutter/shipbreaker,
 	))
 
 /obj/item/storage/belt/utility/chief
