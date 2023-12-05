@@ -148,10 +148,10 @@ GLOBAL_LIST_INIT(uranium_recipes, list ( \
  * Plasma
  */
 /obj/item/stack/sheet/mineral/plasma
-	name = "solid plasma"
+	name = "crystalized hydrogen"
 	icon_state = "sheet-plasma"
 	inhand_icon_state = "sheet-plasma"
-	singular_name = "plasma sheet"
+	singular_name = "hydrogen crystal"
 	sheettype = "plasma"
 	resistance_flags = FLAMMABLE
 	max_integrity = 100
