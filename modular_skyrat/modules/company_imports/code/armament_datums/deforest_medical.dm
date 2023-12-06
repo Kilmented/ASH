@@ -1,4 +1,4 @@
-/datum/armament_entry/company_import/deforest
+/* /datum/armament_entry/company_import/deforest
 	category = DEFOREST_MEDICAL_NAME
 	company_bitflag = CARGO_COMPANY_DEFOREST
 
@@ -236,4 +236,4 @@
 
 /datum/armament_entry/company_import/deforest/cyber_organs/augments/breathing_tube
 	name = "breathing tube implant"
-	item_type = /obj/item/organ/internal/cyberimp/mouth/breathing_tube
+	item_type = /obj/item/organ/internal/cyberimp/mouth/breathing_tube */ //f this stupid fing code

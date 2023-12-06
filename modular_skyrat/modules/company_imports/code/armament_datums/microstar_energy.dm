@@ -1,4 +1,4 @@
-/datum/armament_entry/company_import/microstar
+/* /datum/armament_entry/company_import/microstar
 	category = MICROSTAR_ENERGY_NAME
 	company_bitflag = CARGO_COMPANY_MICROSTAR
 
@@ -116,4 +116,4 @@
 /datum/armament_entry/company_import/microstar/mcr_upgrades/bluespace_part_kit
 	name = "microfusion bluespace parts"
 	item_type = /obj/item/storage/briefcase/secure/white/mcr_parts/bluespace
-	cost = PAYCHECK_COMMAND * 6
+	cost = PAYCHECK_COMMAND * 6 */ // REALLY FUNNY

@@ -1,4 +1,4 @@
-/datum/armament_entry/company_import/nri_surplus
+/* /datum/armament_entry/company_import/nri_surplus
 	category = NRI_SURPLUS_COMPANY_NAME
 	company_bitflag = CARGO_COMPANY_NRI_SURPLUS
 
@@ -130,4 +130,4 @@
 
 /datum/armament_entry/company_import/nri_surplus/firearm_ammo/sakhno_stripper
 	item_type = /obj/item/ammo_box/strilka310
-*/
+*/ // UGHHHHHHH

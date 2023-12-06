@@ -1,4 +1,4 @@
-/datum/armament_entry/company_import/nakamura_modsuits
+/* /datum/armament_entry/company_import/nakamura_modsuits
 	category = NAKAMURA_ENGINEERING_MODSUITS_NAME
 	company_bitflag = CARGO_COMPANY_NAKAMURA_MODSUITS
 
@@ -208,4 +208,4 @@
 /datum/armament_entry/company_import/nakamura_modsuits/novelty_modules/teleporter
 	item_type = /obj/item/mod/module/anomaly_locked/teleporter/prebuilt/locked
 	cost = PAYCHECK_COMMAND * 20
-*/ //BUBBER EDIT REMOVAL END: REMOVES OP MODULES FROM COMPANY IMPORTS
+*/ //BUBBER EDIT REMOVAL END: REMOVES OP MODULES FROM COMPANY IMPORTS */ // HATE

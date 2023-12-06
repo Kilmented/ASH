@@ -1,4 +1,4 @@
-/datum/armament_entry/company_import/kahraman
+/* /datum/armament_entry/company_import/kahraman
 	category = KAHRAMAN_INDUSTRIES_NAME
 	company_bitflag = CARGO_COMPANY_KAHRAMAN
 
@@ -108,4 +108,4 @@
 
 /datum/armament_entry/company_import/kahraman/mecha_tools/cutter
 	item_type = /obj/item/mecha_parts/mecha_equipment/weapon/energy/plasma
-	cost = PAYCHECK_CREW * 3
+	cost = PAYCHECK_CREW * 3 // UGH

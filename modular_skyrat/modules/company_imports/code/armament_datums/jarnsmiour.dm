@@ -1,4 +1,4 @@
-/datum/armament_entry/company_import/blacksteel
+/* /datum/armament_entry/company_import/blacksteel
 	category = BLACKSTEEL_FOUNDATION_NAME
 	company_bitflag = CARGO_COMPANY_BLACKSTEEL
 
@@ -63,4 +63,4 @@
 /datum/armament_entry/company_import/blacksteel/forging_metals/fake_brass
 	item_type = /obj/item/stack/sheet/brussite/three
 	description = "A three-pack of our finest brussite alloy, with a robust yellow color for creating the strongest metalworks from."
-	cost = PAYCHECK_CREW
+	cost = PAYCHECK_CREW */ // THIS COMPANY TOO

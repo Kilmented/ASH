@@ -1,4 +1,4 @@
-/datum/armament_entry/company_import/akh_frontier
+/* /datum/armament_entry/company_import/akh_frontier
 	category = FRONTIER_EQUIPMENT_NAME
 	company_bitflag = CARGO_COMPANY_FRONTIER_EQUIPMENT
 
@@ -81,4 +81,4 @@
 
 /datum/armament_entry/company_import/akh_frontier/deployables/rtg
 	item_type = /obj/item/flatpacked_machine/rtg
-	restricted = TRUE
+	restricted = TRUE */ // f this stupid fing company
