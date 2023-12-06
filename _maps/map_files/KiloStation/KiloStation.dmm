@@ -16327,20 +16327,10 @@
 /turf/open/floor/plating,
 /area/station/maintenance/solars/starboard/aft)
 "fxY" = (
-/obj/effect/decal/cleanable/blood/old,
-/obj/machinery/door/airlock/external{
-	name = "Mining Dock Airlock"
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 8
-	},
-/obj/effect/mapping_helpers/airlock/unres{
-	dir = 4
-	},
-/obj/structure/cable,
-/obj/effect/mapping_helpers/airlock/access/all/supply/mining,
-/turf/open/floor/iron/dark,
-/area/station/cargo/miningoffice)
+/obj/structure/lattice/catwalk,
+/obj/structure/grille,
+/turf/open/space/basic,
+/area/space/nearstation)
 "fyf" = (
 /obj/structure/table/wood,
 /obj/item/clipboard,
@@ -47110,17 +47100,10 @@
 /turf/open/floor/plating,
 /area/station/maintenance/disposal/incinerator)
 "pBi" = (
-/obj/docking_port/stationary{
-	dwidth = 5;
-	height = 7;
-	name = "Salvaging Bay";
-	roundstart_template = /datum/map_template/shuttle/ruin/blackmarket_chevvy;
-	shuttle_id = "blackmarket_chevvy_home";
-	width = 11;
-	dir = 4
-	},
+/obj/structure/lattice/catwalk,
+/obj/structure/grille/broken,
 /turf/open/space/basic,
-/area/space)
+/area/space/nearstation)
 "pBR" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -117631,13 +117614,13 @@ lDu
 wCY
 rZV
 rZV
-aaa
-aaa
-aaa
-oUz
-baS
-oUz
-aaa
+acK
+acm
+acm
+acm
+acm
+acm
+fxY
 aaa
 aaa
 aaa
@@ -117887,14 +117870,14 @@ vFW
 oLH
 wCY
 sJS
-aaa
-aaa
-aaa
-aaa
-oUz
-baS
-oUz
-aaa
+acK
+acK
+acm
+acK
+acK
+acK
+acK
+aaQ
 aaa
 aaa
 aaa
@@ -118144,14 +118127,14 @@ eWS
 sRz
 xZL
 sJS
-aaa
-aaa
-aaa
-aaa
-oUz
-baS
-oUz
-aaa
+acm
+acK
+acK
+acK
+acK
+acK
+acm
+fxY
 aaa
 aaa
 aaa
@@ -118401,14 +118384,14 @@ nwP
 lDu
 wCY
 sJS
-aaa
-aaa
-aaa
-aaa
-oUz
+acK
+acK
+acm
+acK
+acm
+acm
+acK
 fxY
-oUz
-aaa
 aaa
 aaa
 aaa
@@ -118658,14 +118641,14 @@ drm
 oLH
 wCY
 sJS
-aaa
-aaa
-aaa
-aaa
-aaa
-pBi
-aaa
-aaa
+acK
+acm
+acK
+acK
+acK
+acm
+acK
+aaQ
 aaa
 aaa
 aaa
@@ -118915,14 +118898,14 @@ yad
 lDu
 wCY
 rZV
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+acm
+acK
+acK
+acK
+acm
+acK
+acK
+pBi
 aaa
 aaa
 aaa
@@ -119172,14 +119155,14 @@ ubM
 daG
 wCY
 vOX
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+acK
+acK
+acK
+acm
+acK
+acK
+acK
+aeo
 aaa
 aaa
 aaa
@@ -119429,14 +119412,14 @@ aYI
 exg
 kMP
 rZV
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+acK
+acm
+acK
+acm
+acK
+acK
+acK
+fxY
 aaa
 aaa
 aaa
@@ -119686,14 +119669,14 @@ smo
 vOX
 fIl
 rZV
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+acK
+acK
+acm
+acK
+acK
+acK
+acm
+pBi
 aaa
 aaa
 aaa
@@ -119943,14 +119926,14 @@ acm
 rZV
 xrA
 rZV
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+acK
+acK
+acK
+acm
+acK
+acK
+acK
+aeo
 aaa
 aaa
 aaa
@@ -120200,14 +120183,14 @@ aaa
 acm
 acK
 acm
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
-aaa
+acm
+acm
+acK
+acK
+acm
+acK
+acm
+pBi
 aaa
 aaa
 aaa
@@ -120464,7 +120447,7 @@ acK
 acK
 acK
 acm
-qJs
+pBi
 aaa
 aaa
 aaa
