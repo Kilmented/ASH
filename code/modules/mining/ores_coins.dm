@@ -98,44 +98,44 @@
 // random spot, but it should do.
 /obj/item/stack/ore/salvage
 	name = "salvage"
-	icon_state = "iron"
+	icon_state = "salvage"
 	singular_name = "single chunk of salvage"
 	points = 100
 	mats_per_unit = list(/datum/material/iron=2500, /datum/material/glass=1000, /datum/material/titanium=500) // 25 sheets of metallica, 10 sheets glass, 5 sheets titanium. Good starter salvage.
 	mine_experience = 0
-	scan_state = "rock_Iron"
+	scan_state = null
 	merge_type = /obj/item/stack/ore/salvage
 
 /obj/item/stack/ore/raresalvage
 	name = "rare salvage"
-	icon_state = "iron"
+	icon_state = "raresalvage"
 	singular_name = "single chunk of rare salvage"
 	points = 250
 	mats_per_unit = list(/datum/material/iron=3000, /datum/material/glass=1500, /datum/material/titanium=1000, /datum/material/gold=500,
 		/datum/material/silver=500) // 30 sheets of metallica, 15 sheets glass, 10 sheets titanium, 5 sheets silver and gold.  Huge step up.
 	mine_experience = 0
-	scan_state = "rock_Iron"
+	scan_state = null
 	merge_type = /obj/item/stack/ore/raresalvage
 
 /obj/item/stack/ore/exceptionalsalvage
 	name = "exceptional salvage"
-	icon_state = "iron"
+	icon_state = "exceptionalsalvage"
 	singular_name = "single chunk of exceptional salvage"
 	points = 300
 	mats_per_unit = list(/datum/material/iron=5000, /datum/material/glass=3000, /datum/material/titanium=2500, /datum/material/gold=1500, /datum/material/silver=1000,
 		/datum/material/plastic=300, /datum/material/uranium=150) // 50 sheets metal, 30 glass, 25 tit, 15 gahld, 10 silver, with a dash of plastic and uranium for good measure.
 	mine_experience = 0
-	scan_state = "rock_Iron"
+	scan_state = null
 	merge_type = /obj/item/stack/ore/exceptionalsalvage
 
 /obj/item/stack/ore/fuelsalvage
 	name = "fuel salvage"
-	icon_state = "iron"
+	icon_state = "fuelsalvage"
 	singular_name = "single chunk of fuel salvage"
 	points = 500
 	mats_per_unit = list(/datum/material/plasma=1000, /datum/material/uranium=800) // only way to get "crystalized hydrogen" out of salvaging, so it's best to have plenty. otherwise, also 8 sheets of uranium.
 	mine_experience = 0
-	scan_state = "rock_Iron"
+	scan_state = null
 	merge_type = /obj/item/stack/ore/fuelsalvage
 
 /obj/item/stack/ore/salvage/welder_act(mob/living/user, obj/item/I) // let's just like, not. Play as a team, please.
