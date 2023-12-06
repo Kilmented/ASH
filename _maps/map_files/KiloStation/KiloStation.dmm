@@ -10694,6 +10694,11 @@
 /obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating,
 /area/station/maintenance/port/fore)
+"dGG" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/grille/broken,
+/turf/open/space/basic,
+/area/space/nearstation)
 "dGP" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -31991,7 +31996,6 @@
 	dir = 1
 	},
 /obj/structure/closet/secure_closet/shipbreaker,
-/obj/item/tank/jetpack/oxygen,
 /turf/open/floor/iron/dark,
 /area/station/cargo/miningoffice)
 "kyR" = (
@@ -39019,11 +39023,6 @@
 /obj/structure/sign/poster/contraband/random/directional/north,
 /turf/open/floor/plating,
 /area/station/maintenance/port/fore)
-"mNt" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/grille/broken,
-/turf/open/space/basic,
-/area/space/nearstation)
 "mNz" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -42944,7 +42943,6 @@
 	dir = 1
 	},
 /obj/structure/closet/secure_closet/shipbreaker,
-/obj/item/tank/jetpack/oxygen,
 /turf/open/floor/iron/dark,
 /area/station/cargo/miningoffice)
 "oic" = (
@@ -45109,10 +45107,6 @@
 /obj/structure/flora/rock,
 /turf/open/misc/asteroid,
 /area/station/hallway/secondary/exit/departure_lounge)
-"oVY" = (
-/mob/living/basic/carp,
-/turf/open/space/basic,
-/area/space)
 "oWc" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/structure/cable,
@@ -45239,7 +45233,6 @@
 /obj/structure/table,
 /obj/item/hand_labeler,
 /obj/item/crowbar/red,
-/obj/item/gps/mining,
 /obj/effect/decal/cleanable/cobweb,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light_switch/directional/north,
@@ -49226,6 +49219,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/station/maintenance/aft)
+"qlX" = (
+/mob/living/basic/carp,
+/turf/open/space/basic,
+/area/space)
 "qms" = (
 /obj/machinery/portable_atmospherics/canister/nitrous_oxide,
 /turf/open/floor/engine/n2o,
@@ -50858,7 +50855,6 @@
 	dir = 1
 	},
 /obj/structure/closet/secure_closet/shipbreaker,
-/obj/item/tank/jetpack/oxygen,
 /turf/open/floor/iron/dark,
 /area/station/cargo/miningoffice)
 "qRp" = (
@@ -116184,7 +116180,7 @@ aaa
 aaa
 aaa
 aaa
-oVY
+qlX
 aaa
 aaa
 aaa
@@ -118824,7 +118820,7 @@ acK
 acm
 acK
 acK
-mNt
+dGG
 aaa
 aaa
 aaa
@@ -120811,7 +120807,7 @@ lds
 itR
 acm
 aaa
-oVY
+qlX
 aaa
 aaa
 aaa

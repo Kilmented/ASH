@@ -128,7 +128,7 @@
 	scan_state = "rock_Iron"
 	merge_type = /obj/item/stack/ore/exceptionalsalvage
 
-/obj/item/stack/ore/fuel
+/obj/item/stack/ore/fuelsalvage
 	name = "fuel salvage"
 	icon_state = "iron"
 	singular_name = "single chunk of fuel salvage"
@@ -136,7 +136,7 @@
 	mats_per_unit = list(/datum/material/plasma=1000, /datum/material/uranium=800) // only way to get "crystalized hydrogen" out of salvaging, so it's best to have plenty. otherwise, also 8 sheets of uranium.
 	mine_experience = 0
 	scan_state = "rock_Iron"
-	merge_type = /obj/item/stack/ore/fuel
+	merge_type = /obj/item/stack/ore/fuelsalvage
 
 /obj/item/stack/ore/salvage/welder_act(mob/living/user, obj/item/I) // let's just like, not. Play as a team, please.
 	to_chat(user, span_warning("You can't hit a high enough temperature to smelt [src] properly!"))
@@ -150,9 +150,33 @@
 	to_chat(user, span_warning("You can't hit a high enough temperature to smelt [src] properly!"))
 	return TRUE
 
-/obj/item/stack/ore/fuel/welder_act(mob/living/user, obj/item/I)
+/obj/item/stack/ore/fuelsalvage/welder_act(mob/living/user, obj/item/I)
 	to_chat(user, span_warning("You can't hit a high enough temperature to smelt [src] properly!"))
 	return TRUE
+
+/datum/export/salvage
+	cost = CARGO_CRATE_VALUE * 0.5
+	unit_name = "salvage"
+	export_types = list(/obj/item/stack/ore/salvage)
+	include_subtypes = FALSE
+
+/datum/export/raresalvage
+	cost = CARGO_CRATE_VALUE * 1.25
+	unit_name = "rare salvage"
+	export_types = list(/obj/item/stack/ore/raresalvage)
+	include_subtypes = FALSE
+
+/datum/export/exceptionalsalvage
+	cost = CARGO_CRATE_VALUE * 1.5
+	unit_name = "exceptional salvage"
+	export_types = list(/obj/item/stack/ore/exceptionalsalvage)
+	include_subtypes = FALSE
+
+/datum/export/fuelsalvage
+	cost = CARGO_CRATE_VALUE * 2.5
+	unit_name = "fuel salvage"
+	export_types = list(/obj/item/stack/ore/fuelsalvage)
+	include_subtypes = FALSE
 
 /obj/item/stack/ore/glass
 	name = "sand pile"
