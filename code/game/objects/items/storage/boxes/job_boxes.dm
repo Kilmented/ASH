@@ -74,7 +74,8 @@
 
 // Mining survival box
 /obj/item/storage/box/survival/mining
-	mask_type = /obj/item/clothing/mask/gas/alt
+	illustration = "extendedtank"
+	medipen_type =  /obj/item/reagent_containers/hypospray/medipen/atropine
 
 /obj/item/storage/box/survival/mining/PopulateContents()
 	..()

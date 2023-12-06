@@ -98,6 +98,10 @@
 	new /obj/item/grenade/c4/x4/shipbreaker(src)
 	new /obj/item/grenade/c4/x4/shipbreaker(src)
 	new /obj/item/tank/jetpack/oxygen(src)
+	new /obj/item/gun/energy/plasmacutter/shipbreaker(src)
+	new /obj/item/clothing/gloves/combat(src)
+	new /obj/item/storage/belt/utility(src)
+	new /obj/item/clothing/suit/hooded/seva(src)
 
 /**********************Shuttle Computer**************************/
 

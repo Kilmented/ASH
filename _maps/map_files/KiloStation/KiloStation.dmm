@@ -10696,7 +10696,7 @@
 /area/station/maintenance/port/fore)
 "dGG" = (
 /obj/structure/lattice/catwalk,
-/obj/structure/grille/broken,
+/obj/structure/grille,
 /turf/open/space/basic,
 /area/space/nearstation)
 "dGP" = (
@@ -20231,11 +20231,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron,
 /area/station/maintenance/disposal/incinerator)
-"gJa" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/grille,
-/turf/open/space/basic,
-/area/space/nearstation)
 "gJc" = (
 /obj/structure/railing{
 	dir = 1
@@ -46184,7 +46179,6 @@
 /turf/open/floor/iron/showroomfloor,
 /area/station/security/execution/transfer)
 "pmk" = (
-/obj/machinery/computer/order_console/mining,
 /obj/effect/turf_decal/bot,
 /obj/machinery/status_display/supply{
 	pixel_y = -32
@@ -46196,6 +46190,9 @@
 	},
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 1
+	},
+/obj/structure/closet/wardrobe/miner{
+	name = "salvager's wardrobe"
 	},
 /turf/open/floor/iron/dark,
 /area/station/cargo/miningoffice)
@@ -49219,10 +49216,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/station/maintenance/aft)
-"qlX" = (
-/mob/living/basic/carp,
-/turf/open/space/basic,
-/area/space)
 "qms" = (
 /obj/machinery/portable_atmospherics/canister/nitrous_oxide,
 /turf/open/floor/engine/n2o,
@@ -50855,6 +50848,7 @@
 	dir = 1
 	},
 /obj/structure/closet/secure_closet/shipbreaker,
+/obj/item/lead_pipe,
 /turf/open/floor/iron/dark,
 /area/station/cargo/miningoffice)
 "qRp" = (
@@ -51023,10 +51017,6 @@
 /turf/open/floor/plating,
 /area/station/service/bar/atrium)
 "qTJ" = (
-/obj/structure/closet/wardrobe/miner{
-	name = "salvager's wardrobe"
-	},
-/obj/effect/turf_decal/delivery,
 /obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/effect/turf_decal/tile/brown/half/contrasted{
@@ -68628,6 +68618,11 @@
 /obj/effect/landmark/start/hangover,
 /turf/open/floor/wood,
 /area/station/service/library)
+"wqL" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/grille/broken,
+/turf/open/space/basic,
+/area/space/nearstation)
 "wqQ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/turf_decal/siding/purple,
@@ -73862,6 +73857,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
 /area/station/ai_monitored/turret_protected/ai_upload)
+"ycp" = (
+/mob/living/basic/carp,
+/turf/open/space/basic,
+/area/space)
 "ycr" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/old,
@@ -116180,7 +116179,7 @@ aaa
 aaa
 aaa
 aaa
-qlX
+ycp
 aaa
 aaa
 aaa
@@ -117535,7 +117534,7 @@ acm
 acm
 acm
 acm
-gJa
+dGG
 aaa
 aaa
 aaa
@@ -118049,7 +118048,7 @@ acK
 acK
 acK
 acm
-gJa
+dGG
 aaa
 aaa
 aaa
@@ -118306,7 +118305,7 @@ acK
 acm
 acm
 acK
-gJa
+dGG
 aaa
 aaa
 aaa
@@ -118820,7 +118819,7 @@ acK
 acm
 acK
 acK
-dGG
+wqL
 aaa
 aaa
 aaa
@@ -120807,7 +120806,7 @@ lds
 itR
 acm
 aaa
-qlX
+ycp
 aaa
 aaa
 aaa

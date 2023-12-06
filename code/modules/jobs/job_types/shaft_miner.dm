@@ -34,10 +34,7 @@
 
 	id_trim = /datum/id_trim/job/shaft_miner
 	uniform = /obj/item/clothing/under/rank/cargo/miner/lavaland
-	backpack_contents = list(
-		/obj/item/mining_voucher = 1,
-		/obj/item/suit_voucher = 1
-		)
+	backpack_contents = list(/obj/item/tank/internals/emergency_oxygen/engi)
 	belt = /obj/item/modular_computer/pda/shaftminer
 	ears = /obj/item/radio/headset/headset_cargo/mining
 	gloves = /obj/item/clothing/gloves/color/black

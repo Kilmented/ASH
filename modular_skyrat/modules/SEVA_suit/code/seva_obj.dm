@@ -45,7 +45,7 @@
 	heat_protection = HEAD
 	min_cold_protection_temperature = SPACE_HELM_MIN_TEMP_PROTECT
 	max_heat_protection_temperature = SPACE_SUIT_MAX_TEMP_PROTECT
-	clothing_flags = STOPSPRESSUREDAMAGE | THICKMATERIAL
+	clothing_flags = STOPSPRESSUREDAMAGE | THICKMATERIAL | HEADINTERNALS
 	flash_protect = FLASH_PROTECTION_WELDER
 	armor_type = /datum/armor/seva
 	resistance_flags = FIRE_PROOF
