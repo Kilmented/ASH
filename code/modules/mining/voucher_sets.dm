@@ -23,4 +23,5 @@
 	icon_state = "adv_plasmacutter"
 	set_items = list(
 		/obj/item/gun/energy/plasmacutter/shipbreaker,
-		/obj/item/clothing/gloves/combat)
+		/obj/item/clothing/gloves/combat,
+		/obj/item/storage/belt/utility)

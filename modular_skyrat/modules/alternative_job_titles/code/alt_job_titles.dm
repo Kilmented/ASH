@@ -376,7 +376,7 @@
 
 /datum/job/shaft_miner
 	alt_titles = list(
-		"Union Salvager",
+		"ASH Trade Union Salvager",
 		"Apprentice Salvager",
 		"Freelance Salvager",
 	)
