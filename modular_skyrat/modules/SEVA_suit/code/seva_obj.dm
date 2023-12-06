@@ -1,6 +1,6 @@
 /obj/item/clothing/suit/hooded/seva
 	name = "S-EVA suit"
-	desc = "A home-made upcycled EVA suit designed by the R&D team with specifications from the Horizon Trade Union's salvagers. Thick to protect you from extreme pressures, the void, and temperature fluctuations."
+	desc = "A home-made upcycled EVA suit designed by the R&D team with specifications from the Horizon Trade Union's salvagers. Thick to protect you from extreme pressures, the void, and temperature fluctuations. Has rigging points for a small bag."
 	icon = 'modular_skyrat/master_files/icons/obj/clothing/suits.dmi'
 	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/suit.dmi'
 	worn_icon_muzzled = 'modular_skyrat/master_files/icons/mob/clothing/suit_digi.dmi'
@@ -17,7 +17,7 @@
 	armor_type = /datum/armor/seva
 	resistance_flags = FIRE_PROOF
 	transparent_protection = HIDEJUMPSUIT
-	allowed = list(/obj/item/flashlight, /obj/item/tank/internals, /obj/item/resonator, /obj/item/mining_scanner, /obj/item/t_scanner/adv_mining_scanner, /obj/item/gun/energy/recharge/kinetic_accelerator, /obj/item/pickaxe)
+	allowed = list(/obj/item/flashlight, /obj/item/tank/internals, /obj/item/storage/backpack/satchel, /obj/item/storage/backpack/messenger)
 	clothing_flags = STOPSPRESSUREDAMAGE | THICKMATERIAL
 
 /datum/armor/seva // tweeked to perfection
@@ -33,7 +33,7 @@
 
 /obj/item/clothing/head/hooded/seva
 	name = "S-EVA helmet"
-	desc = "A home-made retractable EVA helmet designed by the R&D team with specifications from the Horizon Trade Union's salvagers. Thick to protect you from extreme pressures, the void, and temperature fluctuations."
+	desc = "A home-made retractable EVA helmet designed by the R&D team with specifications from the Horizon Trade Union's salvagers. Thick to protect you from extreme pressures, the void, temperature fluctuations, and blinding flashes."
 	icon = 'modular_skyrat/master_files/icons/obj/clothing/hats.dmi'
 	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/head.dmi'
 	worn_icon_muzzled = 'modular_skyrat/master_files/icons/mob/clothing/head_muzzled.dmi'
