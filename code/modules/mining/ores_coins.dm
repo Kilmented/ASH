@@ -95,6 +95,89 @@
 	spreadChance = 20
 	merge_type = /obj/item/stack/ore/iron
 
+// random spot, but it should do.
+/obj/item/stack/ore/salvage
+	name = "salvage"
+	icon_state = "salvage"
+	singular_name = "single chunk of salvage"
+	points = 100
+	mats_per_unit = list(/datum/material/iron=2500, /datum/material/glass=1000, /datum/material/titanium=500) // 25 sheets of metallica, 10 sheets glass, 5 sheets titanium. Good starter salvage.
+	mine_experience = 0
+	scan_state = null
+	merge_type = /obj/item/stack/ore/salvage
+
+/obj/item/stack/ore/raresalvage
+	name = "rare salvage"
+	icon_state = "raresalvage"
+	singular_name = "single chunk of rare salvage"
+	points = 250
+	mats_per_unit = list(/datum/material/iron=3000, /datum/material/glass=1500, /datum/material/titanium=1000, /datum/material/gold=500,
+		/datum/material/silver=500) // 30 sheets of metallica, 15 sheets glass, 10 sheets titanium, 5 sheets silver and gold.  Huge step up.
+	mine_experience = 0
+	scan_state = null
+	merge_type = /obj/item/stack/ore/raresalvage
+
+/obj/item/stack/ore/exceptionalsalvage
+	name = "exceptional salvage"
+	icon_state = "exceptionalsalvage"
+	singular_name = "single chunk of exceptional salvage"
+	points = 300
+	mats_per_unit = list(/datum/material/iron=5000, /datum/material/glass=3000, /datum/material/titanium=2500, /datum/material/gold=1500, /datum/material/silver=1000,
+		/datum/material/plastic=300, /datum/material/uranium=150) // 50 sheets metal, 30 glass, 25 tit, 15 gahld, 10 silver, with a dash of plastic and uranium for good measure.
+	mine_experience = 0
+	scan_state = null
+	merge_type = /obj/item/stack/ore/exceptionalsalvage
+
+/obj/item/stack/ore/fuelsalvage
+	name = "fuel salvage"
+	icon_state = "fuelsalvage"
+	singular_name = "single chunk of fuel salvage"
+	points = 500
+	mats_per_unit = list(/datum/material/plasma=1000, /datum/material/uranium=800) // only way to get "crystalized hydrogen" out of salvaging, so it's best to have plenty. otherwise, also 8 sheets of uranium.
+	mine_experience = 0
+	scan_state = null
+	merge_type = /obj/item/stack/ore/fuelsalvage
+
+/obj/item/stack/ore/salvage/welder_act(mob/living/user, obj/item/I) // let's just like, not. Play as a team, please.
+	to_chat(user, span_warning("You can't hit a high enough temperature to smelt [src] properly!"))
+	return TRUE
+
+/obj/item/stack/ore/raresalvage/welder_act(mob/living/user, obj/item/I)
+	to_chat(user, span_warning("You can't hit a high enough temperature to smelt [src] properly!"))
+	return TRUE
+
+/obj/item/stack/ore/exceptionalsalvage/welder_act(mob/living/user, obj/item/I)
+	to_chat(user, span_warning("You can't hit a high enough temperature to smelt [src] properly!"))
+	return TRUE
+
+/obj/item/stack/ore/fuelsalvage/welder_act(mob/living/user, obj/item/I)
+	to_chat(user, span_warning("You can't hit a high enough temperature to smelt [src] properly!"))
+	return TRUE
+
+/datum/export/salvage
+	cost = CARGO_CRATE_VALUE * 0.5
+	unit_name = "salvage"
+	export_types = list(/obj/item/stack/ore/salvage)
+	include_subtypes = FALSE
+
+/datum/export/raresalvage
+	cost = CARGO_CRATE_VALUE * 1.25
+	unit_name = "rare salvage"
+	export_types = list(/obj/item/stack/ore/raresalvage)
+	include_subtypes = FALSE
+
+/datum/export/exceptionalsalvage
+	cost = CARGO_CRATE_VALUE * 1.5
+	unit_name = "exceptional salvage"
+	export_types = list(/obj/item/stack/ore/exceptionalsalvage)
+	include_subtypes = FALSE
+
+/datum/export/fuelsalvage
+	cost = CARGO_CRATE_VALUE * 2.5
+	unit_name = "fuel salvage"
+	export_types = list(/obj/item/stack/ore/fuelsalvage)
+	include_subtypes = FALSE
+
 /obj/item/stack/ore/glass
 	name = "sand pile"
 	icon_state = "glass"
@@ -148,9 +231,9 @@ GLOBAL_LIST_INIT(sand_recipes, list(\
 	merge_type = /obj/item/stack/ore/glass/basalt
 
 /obj/item/stack/ore/plasma
-	name = "plasma ore"
+	name = "crystalized hydrogen chunk"
 	icon_state = "plasma"
-	singular_name = "plasma ore chunk"
+	singular_name = "crystalized hydrogen chunk"
 	points = 15
 	mats_per_unit = list(/datum/material/plasma=SHEET_MATERIAL_AMOUNT)
 	refined_type = /obj/item/stack/sheet/mineral/plasma
@@ -298,7 +381,7 @@ GLOBAL_LIST_INIT(sand_recipes, list(\
 		attacher = key_name(user)
 		user.balloon_alert_to_viewers("attached rig")
 		return
-	
+
 	if(I.tool_behaviour == TOOL_WRENCH && rig)
 		rig.on_found()
 		if(QDELETED(src))
