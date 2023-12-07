@@ -149,27 +149,3 @@
 		/obj/item/clothing/under/rank/cargo/qm/skyrat/formal/skirt = 1,
 		/obj/item/clothing/shoes/sneakers/brown = 1,
 	)
-
-	access_lists["[ACCESS_CENT_GENERAL]"] = list( // CC Rep Shiz
-		/obj/item/clothing/head/nanotrasen_consultant = 1,
-		/obj/item/clothing/head/nanotrasen_consultant/beret = 1,
-		/obj/item/clothing/head/beret/centcom_formal/nt_consultant = 1,
-		/obj/item/clothing/under/rank/nanotrasen_consultant = 1,
-		/obj/item/clothing/under/rank/nanotrasen_consultant/skirt = 1,
-		/obj/item/clothing/head/hats/centhat = 1,
-		/obj/item/clothing/suit/armor/centcom_formal/nt_consultant = 1,
-		/obj/item/clothing/gloves/combat/naval/nanotrasen_consultant = 1,
-	)
-
-	access_lists["[ACCESS_COMMAND]"] = list(
-		/obj/item/clothing/head/hats/imperial = 5,
-		/obj/item/clothing/head/hats/imperial/grey = 5,
-		/obj/item/clothing/head/hats/imperial/white = 2,
-		/obj/item/clothing/head/hats/imperial/red = 5,
-		/obj/item/clothing/head/hats/imperial/helmet = 5,
-		/obj/item/clothing/under/rank/captain/skyrat/imperial/generic = 5,
-		/obj/item/clothing/under/rank/captain/skyrat/imperial/generic/grey = 5,
-		/obj/item/clothing/under/rank/captain/skyrat/imperial/generic/pants = 5,
-		/obj/item/clothing/under/rank/captain/skyrat/imperial/generic/red = 5,
-	)
-

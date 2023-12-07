@@ -57,17 +57,6 @@
 		"Mixologist",
 	)
 
-/datum/job/bitrunner
-	alt_titles = list(
-		"Bitrunner",
-		"Bitdomain Technician",
-		"Data Retrieval Specialist",
-		"Netdiver",
-		"Pod Jockey",
-		"Union Bitrunner",
-		"Junior Runner",
-	)
-
 /datum/job/blueshield
 	alt_titles = list(
 		"Blueshield",
@@ -110,13 +99,12 @@
 
 /datum/job/cargo_technician
 	alt_titles = list(
-		"Warehouse Technician",
-		"Commodities Trader",
-		"Deck Worker",
-		"Inventory Associate",
-		"Mailman",
-		"Receiving Clerk",
-		"Union Associate",
+	"Trade Union Cargo Technician",
+	"Trade Union Deck Worker",
+	"Freelance Cargo Technician",
+	"Freelance Deck Worker",
+	"Apprentice Cargo Technician",
+	"Apprentice Deck Worker",
 	)
 
 /datum/job/chaplain
@@ -320,13 +308,10 @@
 
 /datum/job/quartermaster
 	alt_titles = list(
-		"Quartermaster",
-		"Deck Chief",
-		"Head of Supply",
-		"Logistics Coordinator",
-		"Supply Foreman",
-		"Union Requisitions Officer",
-		"Warehouse Supervisor",
+		"Freelance Quartermaster",
+		"Freelance Deck Chief",
+		"Trade Union Quartermaster",
+		"Trade union Deck Chief",
 	)
 
 /datum/job/research_director
@@ -376,7 +361,7 @@
 
 /datum/job/shaft_miner
 	alt_titles = list(
-		"ASH Trade Union Salvager",
+		"Trade Union Salvager",
 		"Apprentice Salvager",
 		"Freelance Salvager",
 	)

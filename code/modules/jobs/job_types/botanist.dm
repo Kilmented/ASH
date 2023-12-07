@@ -3,8 +3,8 @@
 	description = "Grow plants for the cook, for medicine, and for recreation."
 	department_head = list(JOB_HEAD_OF_PERSONNEL)
 	faction = FACTION_STATION
-	total_positions = 3
-	spawn_positions = 2
+	total_positions = 1
+	spawn_positions = 1
 	supervisors = SUPERVISOR_HOP
 	exp_granted_type = EXP_TYPE_CREW
 	config_tag = "BOTANIST"

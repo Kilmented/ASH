@@ -31,7 +31,7 @@
 	ai_controller = /datum/ai_controller/basic_controller/clown
 	speed = 1.4 //roughly close to simpleanimal clowns
 	///list of stuff we drop on death
-	var/list/loot = list(/obj/effect/mob_spawn/corpse/human/clown)
+	var/list/loot = list(/obj/effect/mob_spawn/corpse/human/assistant)
 	///blackboard emote list
 	var/list/emotes = list(
 		BB_EMOTE_SAY = list("HONK", "Honk!", "Welcome to clown planet!"),

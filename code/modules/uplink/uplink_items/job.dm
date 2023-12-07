@@ -39,15 +39,6 @@
 	force_event(/datum/round_event_control/bureaucratic_error, "a syndicate virus")
 	return source
 
-/datum/uplink_item/role_restricted/clumsinessinjector //clown ops can buy this too, but it's in the pointless badassery section for them
-	name = "Clumsiness Injector"
-	desc = "Inject yourself with this to become as clumsy as a clown... or inject someone ELSE with it to make THEM as clumsy as a clown. Useful for clowns who wish to reconnect with their former clownish nature or for clowns who wish to torment and play with their prey before killing them."
-	item = /obj/item/dnainjector/clumsymut
-	cost = 1
-	restricted_roles = list(JOB_CLOWN)
-	illegal_tech = FALSE
-	surplus = 25
-
 /datum/uplink_item/role_restricted/ancient_jumpsuit
 	name = "Ancient Jumpsuit"
 	desc = "A tattered old jumpsuit that will provide absolutely no benefit to you."
@@ -64,24 +55,6 @@
 	restricted_roles = list(JOB_ASSISTANT)
 	surplus = 0
 
-/datum/uplink_item/role_restricted/clownpin
-	name = "Ultra Hilarious Firing Pin"
-	desc = "A firing pin that, when inserted into a gun, makes that gun only usable by clowns and clumsy people and makes that gun honk whenever anyone tries to fire it."
-	cost = 4
-	item = /obj/item/firing_pin/clown/ultra
-	restricted_roles = list(JOB_CLOWN)
-	illegal_tech = FALSE
-	surplus = 25
-
-/datum/uplink_item/role_restricted/clownsuperpin
-	name = "Super Ultra Hilarious Firing Pin"
-	desc = "Like the ultra hilarious firing pin, except the gun you insert this pin into explodes when someone who isn't clumsy or a clown tries to fire it."
-	cost = 7
-	item = /obj/item/firing_pin/clown/ultra/selfdestruct
-	restricted_roles = list(JOB_CLOWN)
-	illegal_tech = FALSE
-	surplus = 25
-
 /datum/uplink_item/role_restricted/syndimmi
 	name = "Syndicate Brand MMI"
 	desc = "An MMI modified to give cyborgs laws to serve the Syndicate without having their interface damaged by Cryptographic Sequencers, this will not unlock their hidden modules."
@@ -96,7 +69,7 @@
 			The only way to get rid of it if you are holding it is to attack someone else with it, causing it to latch to that person instead."
 	item = /obj/item/hot_potato/syndicate
 	cost = 4
-	restricted_roles = list(JOB_COOK, JOB_BOTANIST, JOB_CLOWN, JOB_MIME)
+	restricted_roles = list(JOB_COOK, JOB_BOTANIST)
 
 /datum/uplink_item/role_restricted/combat_baking
 	name = "Combat Bakery Kit"
@@ -105,7 +78,7 @@
 	progression_minimum = 15 MINUTES
 	item = /obj/item/storage/box/syndie_kit/combat_baking
 	cost = 7
-	restricted_roles = list(JOB_COOK, JOB_MIME)
+	restricted_roles = list(JOB_COOK)
 
 /datum/uplink_item/role_restricted/ez_clean_bundle
 	name = "EZ Clean Grenade Bundle"
@@ -123,7 +96,7 @@
 	head after three seconds uninterrupted."
 	cost = 5
 	item = /obj/item/reverse_bear_trap
-	restricted_roles = list(JOB_CLOWN)
+	restricted_roles = list(JOB_ASSISTANT)
 
 /datum/uplink_item/role_restricted/modified_syringe_gun
 	name = "Modified Syringe Gun"
@@ -201,15 +174,6 @@
 	cost = 2
 	surplus = 15
 
-/datum/uplink_item/role_restricted/reverse_revolver
-	name = "Reverse Revolver"
-	desc = "A revolver that always fires at its user. \"Accidentally\" drop your weapon, then watch as the greedy corporate pigs blow their own brains all over the wall. \
-	The revolver itself is actually real. Only clumsy people, and clowns, can fire it normally. Comes in a box of hugs. Honk."
-	progression_minimum = 30 MINUTES
-	cost = 14
-	item = /obj/item/storage/box/hug/reverse_revolver
-	restricted_roles = list(JOB_CLOWN)
-
 /datum/uplink_item/role_restricted/pressure_mod
 	name = "Kinetic Accelerator Pressure Mod"
 	desc = "A modification kit which allows Kinetic Accelerators to do greatly increased damage while indoors. \
@@ -221,15 +185,6 @@
 	limited_stock = 2 //you can't use more than two!
 	restricted_roles = list("Shaft Miner")
 	surplus = 20
-
-/datum/uplink_item/role_restricted/mimery
-	name = "Guide to Advanced Mimery Series"
-	desc = "The classical two part series on how to further hone your mime skills. Upon studying the series, the user should be able to make 3x1 invisible walls, and shoot bullets out of their fingers. \
-			Obviously only works for Mimes."
-	cost = 12
-	item = /obj/item/storage/box/syndie_kit/mimery
-	restricted_roles = list(JOB_MIME)
-	surplus = 0
 
 /datum/uplink_item/role_restricted/laser_arm
 	name = "Laser Arm Implant"
@@ -247,43 +202,6 @@
 	item = /obj/item/gun/chem
 	cost = 12
 	restricted_roles = list(JOB_CHEMIST, JOB_CHIEF_MEDICAL_OFFICER, JOB_BOTANIST)
-
-/datum/uplink_item/role_restricted/pie_cannon
-	name = "Banana Cream Pie Cannon"
-	desc = "A special pie cannon for a special clown, this gadget can hold up to 20 pies and automatically fabricates one every two seconds!"
-	cost = 10
-	item = /obj/item/pneumatic_cannon/pie/selfcharge
-	restricted_roles = list(JOB_CLOWN)
-
-/datum/uplink_item/role_restricted/clown_bomb
-	name = "Clown Bomb"
-	desc = "The Clown bomb is a hilarious device capable of massive pranks. It has an adjustable timer, \
-		with a minimum of %MIN_BOMB_TIMER seconds, and can be bolted to the floor with a wrench to prevent \
-		movement. The bomb is bulky and cannot be moved; upon ordering this item, a smaller beacon will be \
-		transported to you that will teleport the actual bomb to it upon activation. Note that this bomb can \
-		be defused, and some crew may attempt to do so."
-	progression_minimum = 15 MINUTES
-	item = /obj/item/sbeacondrop/clownbomb
-	cost = 15
-	restricted_roles = list(JOB_CLOWN)
-	surplus = 10
-
-/datum/uplink_item/role_restricted/clown_bomb/New()
-	. = ..()
-	desc = replacetext(desc, "%MIN_BOMB_TIMER", SYNDIEBOMB_MIN_TIMER_SECONDS)
-
-/datum/uplink_item/role_restricted/clowncar
-	name = "Clown Car"
-	desc = "The Clown Car is the ultimate transportation method for any worthy clown! \
-			Simply insert your bikehorn and get in, and get ready to have the funniest ride of your life! \
-			You can ram any spacemen you come across and stuff them into your car, kidnapping them and locking them inside until \
-			someone saves them or they manage to crawl out. Be sure not to ram into any walls or vending machines, as the springloaded seats \
-			are very sensitive. Now with our included lube defense mechanism which will protect you against any angry shitcurity! \
-			Premium features can be unlocked with a cryptographic sequencer!"
-	item = /obj/vehicle/sealed/car/clowncar
-	cost = 20
-	restricted_roles = list(JOB_CLOWN)
-	surplus = 10
 
 /datum/uplink_item/role_restricted/his_grace
 	name = "His Grace"
@@ -358,7 +276,7 @@
 		Please note that these are free-range monkeys that don't react with Mutadone."
 	item = /obj/item/antag_spawner/loadout/monkey_man
 	cost = 6
-	restricted_roles = list(JOB_RESEARCH_DIRECTOR, JOB_SCIENTIST, JOB_GENETICIST, JOB_ASSISTANT, JOB_MIME, JOB_CLOWN)
+	restricted_roles = list(JOB_RESEARCH_DIRECTOR, JOB_SCIENTIST, JOB_GENETICIST, JOB_ASSISTANT)
 	restricted = TRUE
 	refundable = TRUE
 
@@ -369,6 +287,7 @@
 	item = /obj/item/storage/toolbox/guncase/monkeycase
 	cost = 4
 	limited_stock = 3
-	restricted_roles = list(JOB_ASSISTANT, JOB_MIME, JOB_CLOWN)
+	restricted_roles = list(JOB_ASSISTANT)
 	restricted = TRUE
 	refundable = FALSE
+
