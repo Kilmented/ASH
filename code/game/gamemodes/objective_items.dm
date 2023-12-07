@@ -119,26 +119,6 @@
 /obj/item/nullrod/add_stealing_item_objective()
 	return add_item_to_steal(src, /obj/item/nullrod)
 
-/datum/objective_item/steal/traitor/clown_shoes
-	name = "the clown's shoes"
-	targetitem = /obj/item/clothing/shoes/clown_shoes
-	excludefromjob = list(JOB_CLOWN, JOB_CARGO_TECHNICIAN, JOB_QUARTERMASTER)
-	item_owner = list(JOB_CLOWN)
-	exists_on_map = TRUE
-
-/obj/item/clothing/shoes/clown_shoes/add_stealing_item_objective()
-	return add_item_to_steal(src, /obj/item/clothing/shoes/clown_shoes)
-
-/datum/objective_item/steal/traitor/mime_mask
-	name = "the mime's mask"
-	targetitem = /obj/item/clothing/mask/gas/mime
-	excludefromjob = list(JOB_MIME, JOB_CARGO_TECHNICIAN, JOB_QUARTERMASTER)
-	item_owner = list(JOB_MIME)
-	exists_on_map = TRUE
-
-/obj/item/clothing/mask/gas/mime/add_stealing_item_objective()
-	return add_item_to_steal(src, /obj/item/clothing/mask/gas/mime)
-
 /datum/objective_item/steal/traitor/pka
 	name = "a protokinetic accelerator"
 	targetitem = /obj/item/gun/energy/recharge/kinetic_accelerator

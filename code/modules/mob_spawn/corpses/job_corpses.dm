@@ -29,11 +29,6 @@
 /obj/effect/mob_spawn/corpse/human/engineer/mod
 	outfit = /datum/outfit/job/engineer/mod
 
-/obj/effect/mob_spawn/corpse/human/clown
-	name = JOB_CLOWN
-	outfit = /datum/outfit/job/clown
-	icon_state = "corpseclown"
-
 /obj/effect/mob_spawn/corpse/human/scientist
 	name = JOB_SCIENTIST
 	outfit = /datum/outfit/job/scientist
