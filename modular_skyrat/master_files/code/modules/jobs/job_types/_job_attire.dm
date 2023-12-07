@@ -8,9 +8,6 @@
 /datum/job/bartender
 	akula_outfit = /datum/outfit/akula
 
-/datum/job/bitrunner
-	akula_outfit = /datum/outfit/akula/cargo_technician
-
 /datum/job/botanist
 	akula_outfit = /datum/outfit/akula
 
