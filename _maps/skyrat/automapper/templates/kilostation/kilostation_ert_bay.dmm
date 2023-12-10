@@ -1,9 +1,4 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"ad" = (
-/obj/structure/transit_tube/diagonal/topleft,
-/obj/structure/lattice/catwalk,
-/turf/open/space/basic,
-/area/space/nearstation)
 "an" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/poster/official/random/directional/east,
@@ -44,11 +39,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating,
 /area/station/maintenance/fore)
-"bH" = (
-/obj/structure/transit_tube/diagonal/crossing/topleft,
-/obj/structure/lattice/catwalk,
-/turf/open/space/basic,
-/area/space/nearstation)
 "bV" = (
 /obj/structure/chair/sofa/bench/right{
 	dir = 8
@@ -106,12 +96,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/station/hallway/primary/fore)
-"dV" = (
-/obj/effect/spawner/structure/window/hollow/reinforced/middle,
-/obj/structure/transit_tube,
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/plating,
-/area/station/maintenance/fore/lesser)
 "dY" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -205,11 +189,6 @@
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron,
 /area/station/hallway/primary/fore)
-"fA" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/window/reinforced/spawner/directional/north,
-/turf/open/floor/plating,
-/area/station/maintenance/fore/lesser)
 "fF" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 4
@@ -286,21 +265,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
 /area/station/hallway/primary/fore)
-"gH" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/station/maintenance/fore/lesser)
-"gW" = (
-/obj/effect/turf_decal/sand/plating,
-/obj/structure/disposalpipe/segment{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/turf/open/floor/plating/airless,
-/area/space/nearstation)
 "ha" = (
 /obj/structure/sign/departments/holy{
 	pixel_y = 30
@@ -314,17 +278,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/station/hallway/primary/fore)
-"hg" = (
-/obj/structure/window/reinforced/spawner/directional/south,
-/turf/open/misc/asteroid/airless,
-/area/space/nearstation)
-"hj" = (
-/obj/effect/turf_decal/sand/plating,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/open/floor/plating/airless,
-/area/space/nearstation)
 "hs" = (
 /obj/machinery/light/directional/south,
 /obj/effect/turf_decal/siding/white{
@@ -333,10 +286,6 @@
 /obj/structure/sign/poster/official/random/directional/south,
 /turf/open/floor/iron/dark,
 /area/station/hallway/primary/fore)
-"hS" = (
-/obj/structure/transit_tube/diagonal/crossing/topleft,
-/turf/open/misc/asteroid/airless,
-/area/space/nearstation)
 "iv" = (
 /obj/structure/cable,
 /turf/open/floor/iron/stairs/old{
@@ -404,13 +353,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/station/hallway/primary/fore)
-"jJ" = (
-/obj/structure/transit_tube/crossing,
-/obj/structure/disposalpipe/segment{
-	dir = 10
-	},
-/turf/open/floor/plating,
-/area/station/maintenance/fore/lesser)
 "jK" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
@@ -479,11 +421,6 @@
 	dir = 4
 	},
 /area/station/hallway/primary/fore)
-"lw" = (
-/obj/structure/window/reinforced/spawner/directional/north,
-/obj/structure/transit_tube/crossing,
-/turf/open/floor/plating,
-/area/station/maintenance/fore/lesser)
 "lU" = (
 /obj/structure/chair/sofa/bench,
 /turf/open/floor/iron,
@@ -505,12 +442,6 @@
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/iron/dark,
 /area/station/hallway/primary/fore)
-"nc" = (
-/obj/effect/turf_decal/sand/plating,
-/obj/structure/disposalpipe/segment,
-/obj/structure/window/reinforced/spawner/directional/south,
-/turf/open/floor/plating/airless,
-/area/space/nearstation)
 "ne" = (
 /turf/closed/wall,
 /area/space/nearstation)
@@ -644,12 +575,6 @@
 	},
 /turf/open/floor/iron,
 /area/station/hallway/primary/fore)
-"rt" = (
-/obj/structure/window/reinforced/spawner/directional/north,
-/obj/structure/cable,
-/obj/machinery/power/apc/auto_name/directional/east,
-/turf/open/floor/plating,
-/area/station/maintenance/fore/lesser)
 "rz" = (
 /obj/structure/closet/crate/bin,
 /obj/machinery/camera/directional/north,
@@ -696,17 +621,6 @@
 "tg" = (
 /turf/closed/wall/rust,
 /area/station/maintenance/fore)
-"tx" = (
-/obj/structure/transit_tube/crossing,
-/obj/effect/turf_decal/sand/plating,
-/obj/structure/window/reinforced/spawner/directional/south,
-/turf/open/floor/plating/airless,
-/area/space/nearstation)
-"tz" = (
-/obj/effect/turf_decal/sand/plating,
-/obj/structure/sign/warning/secure_area/directional/east,
-/turf/open/floor/plating/airless,
-/area/space/nearstation)
 "tU" = (
 /obj/item/radio/intercom/directional/south,
 /turf/open/floor/iron/dark,
@@ -753,26 +667,6 @@
 /obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating,
 /area/station/maintenance/fore/lesser)
-"vs" = (
-/obj/effect/turf_decal/sand/plating,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/turf/open/floor/plating/airless,
-/area/space/nearstation)
-"vE" = (
-/obj/effect/turf_decal/sand/plating,
-/obj/structure/disposalpipe/segment{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/turf/open/floor/plating/airless,
-/area/space/nearstation)
 "vV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/stripes/line,
@@ -813,13 +707,6 @@
 /obj/effect/turf_decal/tile/green,
 /turf/open/floor/iron/dark/corner,
 /area/station/hallway/primary/fore)
-"yM" = (
-/obj/effect/turf_decal/sand/plating,
-/obj/structure/disposalpipe/segment{
-	dir = 10
-	},
-/turf/open/floor/plating/airless,
-/area/space/nearstation)
 "zb" = (
 /turf/closed/wall/r_wall,
 /area/station/hallway/primary/fore)
@@ -835,10 +722,6 @@
 /obj/structure/sign/warning/secure_area/directional/south,
 /turf/open/space/basic,
 /area/space/nearstation)
-"zZ" = (
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/grimy,
-/area/station/hallway/primary/fore)
 "Ag" = (
 /turf/closed/wall/rust,
 /area/station/maintenance/fore/lesser)
@@ -862,10 +745,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/station/hallway/primary/fore)
-"BZ" = (
-/obj/structure/transit_tube/diagonal/crossing/topleft,
-/turf/open/space/basic,
-/area/space/nearstation)
 "Ce" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
@@ -959,10 +838,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/station/hallway/primary/fore)
-"EO" = (
-/obj/structure/transit_tube/curved/flipped,
-/turf/open/space/basic,
-/area/space/nearstation)
 "EP" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/mapping_helpers/broken_floor,
@@ -976,10 +851,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/station/hallway/primary/fore)
-"Fz" = (
-/obj/effect/spawner/structure/window/reinforced,
-/turf/open/floor/plating,
-/area/station/maintenance/fore/lesser)
 "FM" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -1128,10 +999,6 @@
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating,
 /area/station/maintenance/fore)
-"Lw" = (
-/obj/structure/transit_tube/diagonal/topleft,
-/turf/open/space/basic,
-/area/space/nearstation)
 "LI" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
@@ -1144,10 +1011,6 @@
 "Mt" = (
 /turf/closed/wall/rust,
 /area/station/hallway/primary/fore)
-"Mu" = (
-/obj/structure/flora/rock/pile/style_2,
-/turf/open/misc/asteroid/airless,
-/area/space/nearstation)
 "Mw" = (
 /obj/structure/table/wood,
 /turf/open/floor/iron,
@@ -1216,11 +1079,6 @@
 	dir = 8
 	},
 /area/station/hallway/primary/fore)
-"OJ" = (
-/obj/effect/turf_decal/sand/plating,
-/obj/structure/disposalpipe/segment,
-/turf/open/floor/plating/airless,
-/area/space/nearstation)
 "OO" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -1259,11 +1117,6 @@
 	},
 /turf/open/floor/plating,
 /area/station/hallway/primary/fore)
-"Pw" = (
-/obj/structure/transit_tube,
-/obj/effect/turf_decal/sand/plating,
-/turf/open/floor/plating/airless,
-/area/space/nearstation)
 "PD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1306,13 +1159,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/station/hallway/primary/fore)
-"RA" = (
-/obj/structure/disposalpipe/segment{
-	dir = 5
-	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/station/maintenance/fore/lesser)
 "Sa" = (
 /obj/structure/chair/sofa/bench/left{
 	dir = 8
@@ -1332,13 +1178,6 @@
 /obj/item/radio/intercom/directional/east,
 /turf/open/floor/iron,
 /area/station/hallway/primary/fore)
-"TD" = (
-/obj/structure/transit_tube,
-/obj/structure/disposalpipe/segment,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/cleanable/cobweb,
-/turf/open/floor/iron/grimy,
-/area/station/hallway/primary/fore)
 "TG" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1348,10 +1187,6 @@
 "TS" = (
 /turf/template_noop,
 /area/template_noop)
-"Uc" = (
-/obj/structure/transit_tube/diagonal/topleft,
-/turf/open/misc/asteroid/airless,
-/area/space/nearstation)
 "Ul" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/food/pie_smudge,
@@ -1440,26 +1275,10 @@
 "XL" = (
 /turf/closed/mineral/random/labormineral,
 /area/space/nearstation)
-"XP" = (
-/obj/effect/turf_decal/sand/plating,
-/turf/open/floor/plating/airless,
-/area/space/nearstation)
 "Yl" = (
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron,
 /area/station/hallway/primary/fore)
-"YS" = (
-/obj/effect/turf_decal/sand/plating,
-/obj/structure/disposalpipe/segment{
-	dir = 5
-	},
-/turf/open/floor/plating/airless,
-/area/space/nearstation)
-"Ze" = (
-/obj/structure/transit_tube/crossing,
-/obj/effect/turf_decal/sand/plating,
-/turf/open/floor/plating/airless,
-/area/space/nearstation)
 "Zv" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1468,6 +1287,15 @@
 /area/station/hallway/primary/fore)
 
 (1,1,1) = {"
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
 Gh
 Gh
 Gh
@@ -1476,29 +1304,20 @@ Gh
 Gh
 Gh
 Gh
-Gh
-jY
-Gh
-Gh
-Gh
-Gh
-Gh
-Gh
-Gh
-Gh
-Gh
-Gh
-Gh
-BZ
-dZ
-Gh
-Gh
-Gh
-Gh
-Dl
-Dl
-vs
-XL
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
 TS
 TS
 TS
@@ -1512,14 +1331,14 @@ TS
 TS
 "}
 (2,1,1) = {"
-XL
-Gh
-Gh
-Gh
-Gh
-Dl
-Dl
-Gh
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
 Gh
 Gh
 nN
@@ -1530,19 +1349,19 @@ nN
 nN
 Gh
 Gh
-Gh
-Gh
-Gh
-Gh
-ad
-dZ
-dZ
-dZ
-dZ
-dZ
-XP
-gW
-vE
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
 TS
 TS
 TS
@@ -1556,14 +1375,14 @@ TS
 TS
 "}
 (3,1,1) = {"
-XL
-Dl
-Gh
-Gh
-Dl
-Dl
-Dl
-Dl
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
 Gh
 nN
 nN
@@ -1574,19 +1393,19 @@ rE
 nN
 nN
 Gh
-Gh
-Gh
-Gh
-Gh
-Gh
-Lw
-Dl
-Dl
-Dl
-Dl
-Dl
-Dl
-hj
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
 TS
 TS
 TS
@@ -1600,15 +1419,15 @@ TS
 TS
 "}
 (4,1,1) = {"
-XL
-Dl
-Dl
+TS
+TS
+TS
+TS
+TS
+TS
+TS
 Gh
-Mu
-Dl
-Dl
-Dl
-Dl
+Gh
 nN
 Uw
 Rj
@@ -1617,20 +1436,20 @@ jK
 cc
 Uw
 nN
-Dl
-Dl
-Dl
-Dl
 Gh
-Dl
-Dl
-hS
-Dl
-Dl
-Dl
-Dl
-Dl
-hj
+Gh
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
 TS
 TS
 TS
@@ -1644,14 +1463,14 @@ TS
 TS
 "}
 (5,1,1) = {"
-Dl
-Dl
-Dl
-Dl
-Dl
-Dl
-Dl
-Dl
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+Gh
 nN
 nN
 jK
@@ -1662,19 +1481,19 @@ Sa
 jV
 nN
 nN
-Dl
-Mu
-Dl
-Dl
-Dl
-Dl
-Dl
-Uc
-Dl
-Dl
-Dl
-XL
-hj
+Gh
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
 TS
 TS
 TS
@@ -1688,14 +1507,14 @@ TS
 TS
 "}
 (6,1,1) = {"
-Dl
-Dl
-Dl
-Dl
-Dl
-Dl
-Dl
-Dl
+TS
+Gh
+Gh
+Gh
+Gh
+Gh
+Gh
+Gh
 Eg
 rz
 jK
@@ -1706,21 +1525,21 @@ ud
 Uw
 tU
 Eg
-Dl
-Dl
-Dl
-Dl
-Dl
-Dl
-Dl
-Dl
-Uc
-Dl
 Gh
 Gh
-yM
-OJ
-YS
+Gh
+Gh
+Gh
+Gh
+Gh
+Gh
+Gh
+TS
+TS
+TS
+TS
+TS
+TS
 TS
 TS
 TS
@@ -1732,8 +1551,8 @@ TS
 TS
 "}
 (7,1,1) = {"
-Dl
-Dl
+TS
+Gh
 Mt
 Mt
 Eg
@@ -1759,12 +1578,12 @@ Eg
 nN
 Eg
 Gh
-bH
-dZ
-dZ
-dZ
-fR
-hj
+TS
+TS
+TS
+TS
+TS
+TS
 TS
 TS
 TS
@@ -1776,7 +1595,7 @@ TS
 TS
 "}
 (8,1,1) = {"
-Gh
+TS
 Gh
 Eg
 ku
@@ -1803,12 +1622,12 @@ EP
 nW
 nN
 Gh
-dZ
-Lw
-Gh
-Gh
-dZ
-hj
+TS
+TS
+TS
+TS
+TS
+TS
 TS
 TS
 TS
@@ -1847,19 +1666,19 @@ Dh
 MG
 nN
 Gh
-dZ
-dZ
-Lw
-Gh
-XP
-yM
-OJ
-OJ
-OJ
-OJ
-nc
-fA
-RA
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
 TS
 TS
 "}
@@ -1891,21 +1710,21 @@ HW
 iD
 nN
 Gh
-Gh
-dZ
-dZ
-EO
-Ze
-Pw
-Pw
-Ze
-Pw
-Pw
-tx
-lw
-jJ
-dV
-TD
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
 "}
 (11,1,1) = {"
 Gh
@@ -1934,22 +1753,22 @@ jV
 HW
 hd
 Eg
-dZ
-dZ
-dZ
-dZ
-dZ
-XP
-tz
-Dl
-Dl
-Dl
-Dl
-hg
-rt
-gH
-Fz
-zZ
+Gh
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
+TS
 "}
 (12,1,1) = {"
 Gh
